@@ -1,3 +1,5 @@
 export PS1="\[\e[0;33m\][\t] \[\e[0;32m\]\u\[\e[0;34m\]@\h\[\e[035m\] \w \[\e[0m\]\$ " # \W is just for folder
 export VISUAL=vim;
 export EDITOR=vim;
+
+eval $(keychain --eval --agents ssh --quick --quiet)
