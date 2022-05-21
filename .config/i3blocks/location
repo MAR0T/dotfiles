@@ -1,0 +1,10 @@
+#!/bin/bash
+
+CITY=$(curl -s ipinfo.io | jq .city | sed 's/^.//;s/.$//')
+INITIAL_CITY="Gdańsk"
+
+if [[ "${CITY}" != "${INITIAL_CITY}"  ]]; then
+	echo "<span color='#f39c12'>${CITY}</span>"
+else
+	echo "${CITY}"
+fi

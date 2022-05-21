@@ -1,0 +1,126 @@
+# i3blocks config file
+#
+# Please see man i3blocks for a complete reference!
+# The man page is also hosted at http://vivien.github.io/i3blocks
+#
+# List of valid properties:
+#
+# align
+# color
+# background
+# border
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+# Global properties
+#
+# The top properties below are applied to every block, but can be overridden.
+# Each block command defaults to the script name to avoid boilerplate.
+#command=/usr/local/libexec/i3blocks/$BLOCK_NAME
+#separator_block_width=15
+#markup=none
+
+#[click]
+#full_text=Click me!
+#command=echo "Got clicked"
+#color=#F79494
+
+[Kernel]
+label= 
+command=uname -r
+interval=once
+
+[location]
+label=  
+command=./location
+interval=300
+markup=pango
+
+[disk]
+command=./disk
+LABEL=  
+#DIR=/mnt/data
+interval=30
+
+[cpu_usage2]
+label= 
+command=./cpu_usage2
+markup=pango
+interval=persist
+#min_width=CPU 100.00%
+REFRESH_TIME=1
+LABEL=CPU 
+WARN_PERCENT=50
+CRIT_PERCENT=80
+DECIMALS=0
+
+[CPU temperature]
+label=
+command=sensors | grep "Package id 0" | awk '{print $4}'
+interval=1
+
+[gpu_load]
+command=./gpu-load
+label= GPU 
+interval=1
+#min_width=GPU 100% 100% 100% 100%
+#GPU_BRAND=NVIDIA // or AMD
+T_WARN=70
+T_CRIT=90
+
+[memory]
+command=./memory
+label= RAM 
+interval=5
+
+#[memory]
+#command=./memory
+#label=SWAP 
+#instance=swap
+#interval=30
+
+[uptime]
+label= 
+command=uptime -p | sed 's/s*weeks\s*/w/; s/\s*days/d/; s/\s*hours/h/; s/\s*minutes/m/; s/\,//g;'
+interval=60
+color=#00FF00
+
+[arch-update]
+command=./arch-update 
+interval=3600
+markup=pango
+#QUIET=true
+BASE_COLOR=#00FF00
+UPDATE_COLOR=#f0cf62
+#AUR=true
+#LABEL= 
+#color=#fff5d6
+
+[aur-update]
+command=./aur-update
+markup=pango
+format=json
+interval=3600
+UPDATE_COLOR=#f0cf62
+QUIET=0
+#IGNORE=root vidyodesktop
+#CACHE_UPDATES=0
+
+[time]
+command=date '+%Y-%m-%d  %H:%M:%S'
+interval=5
+
+[cat_icon]
+full_text=
+interval=once
+
