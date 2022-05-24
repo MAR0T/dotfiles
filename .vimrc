@@ -10,3 +10,8 @@ let g:lightline = {
       \ }
 set background=dark
 set mouse-=a "disables mouse 
+
+au bufnewfile *.sh 0r ~/.vim/templates/sh_header.temp
+au bufnewfile *.sh exe "3," . 10 . "g/{CREATED_DATE}/s//".strftime("%d.%m.%Y")
+au bufnewfile,bufwritepre *.sh exe "3," . 10 . "g/Modified date.*/s//Modified date \: ".strftime("%d.%m.%Y")
+au bufnewfile *.sh exe "3," . 10 . "g/{SCRIPT_NAME}/s//".expand("%")
