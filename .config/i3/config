@@ -70,6 +70,10 @@ default_border pixel 1
 default_floating_border pixel 1
 hide_edge_borders smart
 
+# Set default layouts
+exec --no-startup-id i3-msg "workspace $ws1; layout stacking"
+exec --no-startup-id i3-msg "workspace $ws3; layout stacking"
+
 # change borders
 bindsym $mod+u border none
 bindsym $mod+y border pixel 1
