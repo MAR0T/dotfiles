@@ -56,8 +56,6 @@ exec --no-startup-id blueberry-tray		# bluetooth icon
 exec --no-startup-id xfce4-clipman
 exec --no-startup-id snapper -c marek_home create -d "after login" # makes btrfs snapshot
 
-# exec --no-startup-id picom &
-
 # Start my normal apps
 # Use xprop to find WM_CLASS
 
