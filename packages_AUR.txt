@@ -1,0 +1,4 @@
+cyberghostvpn-openresolv
+foxitreader
+mkinitcpio-openswap
+unityhub
