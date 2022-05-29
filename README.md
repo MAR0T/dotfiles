@@ -2,21 +2,14 @@
 
 My Linux configuration files
 
-## Managing dotfiles
-
-1. Clone repository to ~/.dotfiles.git
-1. Use "dotfiles" git alias 
-
-## Reinstalling packages
-
-Installs not installed packages from packages.txt and packages_AUR.txt
+## Instructions to recreate my environment on clean ArcoLinux
 
 ```
-~/packages_reinstall.sh
-```
-
-Stores currently explicitly installed packages in packages.txt and packages_AUR.txt
-
-```
-~/packages_list.sh # Creates a list 
+git clone --bare https://github.com/MAR0T/dotfiles.git .dotfiles.git
+alias dotfiles='git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME'
+dotfiles checkout main
+pacman -Sy archlinux-keyring
+pacman -Syu
+./packages_reinstall.sh
+./fonts_install.sh
 ```
