@@ -10,7 +10,7 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME'
 dotfiles checkout main
 dotfiles config --local status.showUntrackedFiles no
 ./fonts_install.sh
-pacman -Sy archlinux-keyring
+pacman -Sy archlinux-keyring keychain
 pacman -Syu
 ./packages_reinstall.sh
 sudo systemctl enable ly.service
