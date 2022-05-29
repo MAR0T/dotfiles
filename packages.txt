@@ -68,6 +68,7 @@ blueberry
 bluez
 bluez-libs
 bluez-utils
+bridge-utils
 broadcom-wl-dkms
 btop
 btrfs-assistant
@@ -195,6 +196,7 @@ libcups
 libdvdcss
 libfido2
 libgsf
+libguestfs
 libmtp
 libopenraw
 libpwquality
@@ -313,6 +315,7 @@ pv
 python-pip
 python-pyparted
 qbittorrent
+qemu-base
 qt5-webkit
 qtile
 r8168-dkms
@@ -359,6 +362,7 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 tint2
+tk
 tldr
 tlp
 tmux
@@ -387,8 +391,11 @@ upower
 usb_modeswitch
 usbmuxd
 usbutils
+vde2
 veracrypt
 vim
+virt-manager
+virt-viewer
 visual-studio-code-bin
 vivaldi
 vivaldi-ffmpeg-codecs
