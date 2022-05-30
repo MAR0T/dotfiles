@@ -13,5 +13,6 @@ dotfiles config --local status.showUntrackedFiles no
 pacman -Sy archlinux-keyring keychain
 pacman -Syu
 ./packages_reinstall.sh
+./link_zsh_plugins_themes.sh
 sudo systemctl enable ly.service
 ```
