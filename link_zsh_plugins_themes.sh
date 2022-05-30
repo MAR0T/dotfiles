@@ -17,6 +17,10 @@ sudo ln -s ../../zsh/plugins/zsh-history-substring-search /usr/share/oh-my-zsh/p
 sudo rm -f /usr/share/oh-my-zsh/plugins/zsh-syntax-highlighting
 sudo ln -s ../../zsh/plugins/zsh-syntax-highlighting /usr/share/oh-my-zsh/plugins/zsh-syntax-highlighting
 
+# Missing plugin link
+sudo rm -f /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.plugin.zsh
+sudo ln -s zsh-history-substring-search.zsh /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.plugin.zsh
+
 # Themes
-sudo rm -f /usr/share/oh-my-zsh/powerlevel10k
-sudo ln -s ../../zsh-theme-powerlevel10k /usr/share/oh-my-zsh/powerlevel10k
+sudo rm -f /usr/share/oh-my-zsh/themes/powerlevel10k
+sudo ln -s ../../zsh-theme-powerlevel10k /usr/share/oh-my-zsh/themes/powerlevel10k
