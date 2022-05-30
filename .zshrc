@@ -45,9 +45,9 @@ zle_highlight=('paste:none')
 # Example aliases
 source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
-source ~/.aliases
-source ~/.aliases-private
-source ~/.zshrc-personal
+[[ -f ~/.aliases ]] && . ~/.aliases
+[[ -f ~/.aliases-private ]] && . ~/.aliases-private
+[[ -f ~/.zshrc-personal ]] && . ~/.zshrc-personal
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
