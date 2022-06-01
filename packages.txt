@@ -33,7 +33,6 @@ arcolinux-neofetch-git
 arcolinux-nitrogen-git
 arcolinux-obmenu-generator-git
 arcolinux-openbox-git
-arcolinux-pamac-all
 arcolinux-paru-git
 arcolinux-pipemenus-git
 arcolinux-plank-git
@@ -346,6 +345,7 @@ sparklines-git
 speedtest-cli-git
 splix
 squashfs-tools
+steam
 sublime-text-4
 sudo
 syslinux
