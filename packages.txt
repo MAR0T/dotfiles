@@ -170,12 +170,16 @@ i3status
 imagemagick
 inkscape
 intel-ucode
+intellij-idea-community-edition
 intltool
 inxi
 ipw2100-fw
 ipw2200-fw
 irssi
 iw
+jdk-openjdk
+jdk11-openjdk
+jdk8-openjdk
 jdownloader2
 jfsutils
 jq
@@ -213,6 +217,7 @@ logrotate
 lolcat
 lsb-release
 lsscsi
+lutris
 lvm2
 lxappearance-obconf
 lxrandr
