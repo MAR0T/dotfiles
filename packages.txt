@@ -72,6 +72,7 @@ broadcom-wl-dkms
 btop
 btrfs-assistant
 btrfs-progs
+calibre
 capitaine-cursors
 catfish
 clonezilla
