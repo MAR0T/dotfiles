@@ -164,8 +164,8 @@ set $ws10 "10"
 
 # Define monitors
 set $monitor_left HDMI-0
-set $monitor_center DP-0
-set $monitor_right DVI-D-0
+set $monitor_center DP-2
+set $monitor_right DP-5
 
 # Setup workspaces
 workspace $ws1 output $monitor_left
