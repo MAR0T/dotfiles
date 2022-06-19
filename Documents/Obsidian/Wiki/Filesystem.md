@@ -1,0 +1,1 @@
+To give more safety and option to revert changes, I installed Linux on [[Btrfs]]  partition and configured automatic snapshots on important moments.

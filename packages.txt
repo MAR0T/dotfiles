@@ -280,6 +280,7 @@ obconf
 obkey-git
 obmenu-generator
 obmenu3
+obsidian
 oh-my-zsh-git
 openbox
 openbox-arc-git
@@ -316,6 +317,7 @@ pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
 pulseaudio-zeroconf
+pulsemixer
 pv
 python-pip
 python-pyparted

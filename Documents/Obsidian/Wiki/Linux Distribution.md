@@ -1,0 +1,1 @@
+I have chosen [[Arch]] as Linux distribution of choice.
