@@ -165,7 +165,7 @@ set $ws9 "9"
 set $ws10 "10"
 
 # Define monitors
-set $monitor_left HDMI-0
+set $monitor_left DP-0
 set $monitor_center DP-2
 set $monitor_right DP-5
 
