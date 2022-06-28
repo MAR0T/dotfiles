@@ -2,3 +2,4 @@ cyberghostvpn-openresolv
 foxitreader
 mkinitcpio-openswap
 unityhub
+ymuse-bin

@@ -75,6 +75,7 @@ btrfs-progs
 calibre
 capitaine-cursors
 catfish
+cava
 clonezilla
 cmatrix
 conky-lua-archers
@@ -245,6 +246,8 @@ mono-msbuild
 mono-msbuild-sdkresolver
 mono-tools
 mousepad
+mpc
+mpd
 mtools
 mtpfs
 mugshot
@@ -252,6 +255,7 @@ mupdf-gl
 nano
 nbd
 ncdu
+ncmpcpp
 ndisc6
 neofetch
 nerd-fonts-source-code-pro
