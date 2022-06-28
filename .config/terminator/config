@@ -6,6 +6,7 @@
 [keybindings]
   page_up = <Alt>Page_Up
   page_down = <Alt>Page_Down
+  help = <Primary>F1
 [profiles]
   [[default]]
     cursor_color = "#aaaaaa"
