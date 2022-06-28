@@ -5,4 +5,4 @@
 3. [[Window manager]]
 4. [[Application menu]]
 5. [[Monitoring tools]]
-6. 
+6. [[Linux/mpd|Music Player Daemon]]
