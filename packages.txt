@@ -175,6 +175,7 @@ intel-ucode
 intellij-idea-community-edition
 intltool
 inxi
+iotop
 ipw2100-fw
 ipw2200-fw
 irssi
@@ -284,7 +285,9 @@ obconf
 obkey-git
 obmenu-generator
 obmenu3
+obs-studio
 obsidian
+obsidian-icon-theme
 oh-my-zsh-git
 openbox
 openbox-arc-git
