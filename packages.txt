@@ -90,6 +90,7 @@ ddrescue
 dhclient
 dialog
 diffutils
+discord
 dmenu
 dmraid
 dnsmasq
@@ -163,6 +164,7 @@ gzip
 hardcode-fixer-git
 hdparm
 hedgewars
+heroic-games-launcher-bin
 hsetroot
 htop
 hw-probe
