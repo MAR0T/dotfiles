@@ -10,6 +10,7 @@ alsa-plugins
 alsa-utils
 appstream
 arch-install-scripts
+archlinux-login-backgrounds-plain-git
 archlinux-logout-git
 archlinux-tweak-tool-git
 arcolinux-bin-git
