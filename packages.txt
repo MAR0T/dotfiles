@@ -98,6 +98,7 @@ dosfstools
 dotnet-sdk
 downgrade
 duf-bin
+dunst
 e2fsprogs
 edid-decode-git
 edk2-shell
@@ -275,6 +276,7 @@ nilfs-utils
 nitrogen
 notepadqq
 noto-fonts
+npm
 nss-mdns
 ntfs-3g
 ntp
