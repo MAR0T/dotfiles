@@ -136,6 +136,7 @@ gnome-screenshot
 gnome-system-monitor
 gnomon
 gnu-netcat
+go
 gpart
 gparted
 gpm
@@ -437,6 +438,7 @@ xcape
 xcursor-arch-cursor-complete
 xdg-desktop-portal-gtk
 xdg-user-dirs
+xdotool
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
