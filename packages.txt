@@ -181,8 +181,6 @@ intellij-idea-community-edition
 intltool
 inxi
 iotop
-ipw2100-fw
-ipw2200-fw
 irssi
 iw
 jdk-openjdk
@@ -396,7 +394,7 @@ ttf-inconsolata
 ttf-jetbrains-mono
 ttf-meslo-nerd-font-powerlevel10k
 ttf-ms-fonts
-ttf-nerd-fonts-symbols-mono
+ttf-nerd-fonts-symbols-1000-em
 ttf-roboto
 ttf-roboto-mono
 ttf-ubuntu-font-family
