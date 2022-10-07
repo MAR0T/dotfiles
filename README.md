@@ -5,6 +5,7 @@ My Linux configuration files
 ## Instructions to recreate my environment on clean ArcoLinux
 
 ```
+cd
 git clone --bare https://github.com/MAR0T/dotfiles.git .dotfiles.git
 alias dotfiles='git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME'
 dotfiles checkout main
