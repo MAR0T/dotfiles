@@ -165,22 +165,6 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-# Define monitors
-set $monitor_left DP-0
-set $monitor_center DP-2
-set $monitor_right DP-5
-
-# Setup workspaces
-workspace $ws1 output $monitor_left
-workspace $ws2 output $monitor_center
-workspace $ws3 output $monitor_right
-workspace $ws4 output $monitor_left
-workspace $ws5 output $monitor_center
-workspace $ws6 output $monitor_right
-workspace $ws7 output $monitor_left
-workspace $ws8 output $monitor_center
-workspace $ws9 output $monitor_right
-
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
