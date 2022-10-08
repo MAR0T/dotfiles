@@ -1,4 +1,3 @@
-cyberghostvpn-openresolv
 foxitreader
 mkinitcpio-openswap
 obs-backgroundremoval
