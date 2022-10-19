@@ -1,0 +1,2 @@
+1. [[ripgrep]] - searches content of files in current directory
+2. 
