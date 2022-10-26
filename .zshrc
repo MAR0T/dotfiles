@@ -45,6 +45,7 @@ zle_highlight=('paste:none')
 # Example aliases
 source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
+[[ -f ~/.arcolinux-aliases ]] && . ~/.arcolinux-aliases
 [[ -f ~/.aliases ]] && . ~/.aliases
 [[ -f ~/.aliases-private ]] && . ~/.aliases-private
 [[ -f ~/.zshrc-personal ]] && . ~/.zshrc-personal

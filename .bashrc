@@ -235,6 +235,7 @@ alias personal='cp -Rf /personal/* ~'
 #in there. They will not be overwritten by skel.
 
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
+[[ -f ~/.arcolinux-aliases ]] && . ~/.arcolinux-aliases
 [[ -f ~/.aliases ]] && . ~/.aliases
 [[ -f ~/.aliases-private ]] && . ~/.aliases-private
 

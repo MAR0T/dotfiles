@@ -1,0 +1,51 @@
+# fix obvious typo's
+alias cd..='cd ..'
+alias pdw='pwd'
+
+# pacman
+alias udpate='sudo pacman -Syyu'
+alias remove='sudo pacman -Rcns'
+alias unlock="sudo rm /var/lib/pacman/db.lck"
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+
+# readable output
+alias df='df -h'
+
+# continue download
+alias wget="wget -c"
+
+# grub update
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+# skip integrity check
+alias paruskip='paru -S --mflags --skipinteg'
+alias yayskip='yay -S --mflags --skipinteg'
+
+# youtube download
+alias yta-aac="yt-dlp --extract-audio --audio-format aac "
+alias yta-best="yt-dlp --extract-audio --audio-format best "
+alias yta-flac="yt-dlp --extract-audio --audio-format flac "
+alias yta-mp3="yt-dlp --extract-audio --audio-format mp3 "
+alias ytv-best="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 "
+
+# recent Installed Packages
+alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | nl"
+
+# search content with ripgrep
+alias rg="rg --sort path"
+
+# pacman keys fix
+alias fixkeys="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
+
+#maintenance
+alias big="expac -H M '%m\t%n' | sort -h | nl"
+
+#btrfs aliases
+alias btrfsfs="sudo btrfs filesystem df /"
+alias btrfsli="sudo btrfs su li / -t"
+
+#snapper aliases
+alias snapli="sudo snapper list"
+
+
