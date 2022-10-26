@@ -3,7 +3,7 @@ alias cd..='cd ..'
 alias pdw='pwd'
 
 # pacman
-alias udpate='sudo pacman -Syyu'
+alias update='sudo pacman -Syyu'
 alias remove='sudo pacman -Rcns'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
