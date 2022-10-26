@@ -3,6 +3,7 @@
 3. [[yay]]
 
 
+---
 
 ## Potential problems
 
@@ -12,11 +13,15 @@
 
 The below command will update all packages, then downgrade all affected packages.
 
-`sudo pacman -Suu`
+```bash
+sudo pacman -Suu
+```
 
 Then, do the full upgrade using command:
 
-`sudo pacman -Syyu`
+```bash
+sudo pacman -Syyu
+```
 
 
 

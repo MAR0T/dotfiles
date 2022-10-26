@@ -1,7 +1,7 @@
 # Btrfs
 Btrfs is a modern copy on write (CoW) filesystem for Linux aimed at implementing advanced features while also focusing on fault tolerance, repair and easy administration. 
 
-I setup ***btrfs** partition for my arch linux installation.
+I setup **btrfs** partition for my arch linux installation.
 It consists of multiple subvolumes which can grow and be snapshoted independently.
 
 

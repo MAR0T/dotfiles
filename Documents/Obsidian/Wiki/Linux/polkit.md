@@ -2,7 +2,9 @@ Polkit manages permissions.
 
 **udiskie** requires permission for some **polkit** actions which are usually granted when using a desktop environment. If your login session is not properly activated you may need to customize your polkit settings.
 
-When **Thunar** file manager asks for sudo password when accessing drive, it means we do not have specific permission.
+When [[Thunar]] file manager asks for sudo password when accessing drive, it means we do not have specific peolkit settings.
+
+rmission.
 
 By adding file **/etc/polkit-1/rules.d/50-udiskie.rules** with content:
 ```
