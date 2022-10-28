@@ -1,3 +1,4 @@
+battop
 foxitreader
 mkinitcpio-openswap
 obs-backgroundremoval
