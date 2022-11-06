@@ -121,6 +121,7 @@ fish
 flex
 foliate
 font-manager
+foxitreader
 freetype2
 fsarchiver
 gawk
@@ -241,6 +242,7 @@ mesa-utils
 mintstick-git
 mkinitcpio
 mkinitcpio-nfs-utils
+mkinitcpio-openswap
 mlocate
 mobile-broadband-provider-info
 modemmanager
@@ -273,6 +275,7 @@ newsboat
 nfs-utils
 nilfs-utils
 nitrogen
+nmap
 notepadqq
 noto-fonts
 npm
@@ -286,9 +289,9 @@ nvidia-utils
 nvme-cli
 nvtop-git
 obconf
-obkey-git
 obmenu-generator
 obmenu3
+obs-backgroundremoval
 obs-studio
 obsidian
 obsidian-icon-theme
@@ -355,6 +358,7 @@ sddm
 sdparm
 sed
 sg3_utils
+slock
 smartmontools
 snapper
 snapper-support
@@ -386,6 +390,7 @@ tldr
 tlp
 tmux
 tpm2-tss
+tree
 ttf-dejavu
 ttf-droid
 ttf-font-awesome
@@ -403,6 +408,7 @@ udftools
 udiskie
 udisks2
 unace
+unityhub
 unrar
 unzip
 upd72020x-fw
@@ -529,6 +535,7 @@ xorg-xwininfo
 xorg-xwud
 yad
 yay-bin
+yt-dlp
 zenity
 zsh
 zsh-autosuggestions
