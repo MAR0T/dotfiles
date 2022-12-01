@@ -1,3 +1,2 @@
 cyberghostvpn-openresolv
-obkey-git
 ymuse-bin

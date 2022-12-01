@@ -64,6 +64,8 @@ bibata-cursor-theme-bin
 bind
 binutils
 bison
+bitwarden
+bitwarden-cli
 blueberry
 bluez
 bluez-libs
@@ -371,6 +373,7 @@ squashfs-tools
 steam
 sublime-text-4
 sudo
+swtpm
 syslinux
 system-config-printer
 tcpdump
