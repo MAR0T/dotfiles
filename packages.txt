@@ -55,6 +55,7 @@ asciinema
 at
 atril
 autoconf
+autokey-gtk
 automake
 avahi
 awesome-terminal-fonts
@@ -72,6 +73,7 @@ blueberry
 bluez
 bluez-libs
 bluez-utils
+brave-bin
 bridge-utils
 broadcom-wl-dkms
 btop
@@ -177,7 +179,7 @@ hsetroot
 htop
 hw-probe
 hwinfo
-i3-gaps
+i3-wm
 i3blocks
 i3status
 imagemagick
@@ -342,6 +344,7 @@ pulsemixer
 pv
 python-pip
 python-pyparted
+python-wxpython
 qbittorrent
 qemu-base
 qt5-webkit
@@ -451,6 +454,7 @@ xcape
 xcursor-arch-cursor-complete
 xdg-desktop-portal-gtk
 xdg-user-dirs
+xdman
 xdotool
 xf86-input-elographics
 xf86-input-evdev
