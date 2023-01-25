@@ -1,0 +1,322 @@
+{
+  "main": {
+    "id": "8bd27dea16eb1f0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "730b5fd2a5477d10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "faf9f4b4ca86e46f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "My own linux setup.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "b7bd5fa19d3302af"
+          },
+          {
+            "id": "d4b185c2a08a01d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Utilities/at.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa1907e648e4fa64",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "cb2b007f82c00196",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Macros/AutoKey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "028a6c5f276de0e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Monitoring tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0559a943eecee6c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Utilities/bat.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81439a48f88c647b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Password Manager/bitwarden.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "822f64251508a369",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/bluetooth.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57aab3cd7be957c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Btrfs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc94af7db80ec6e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Calibre.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59b4d3752b35c771",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/bluetooth.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 10
+      },
+      {
+        "id": "ca5ddffb72e5272d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7fe5e2ad397ad21",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "My own linux setup.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "b7bd5fa19d3302af"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a90b6d7c82f7fa46",
+    "type": "split",
+    "children": [
+      {
+        "id": "e281abe26eee9a23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc8ed9479b0f9efd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34de3b46a005b854",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "btrfs-a",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "989c86fd9bd46cb8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4e5aec3fd7783ef4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0754f3a81de91995",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42ee270b1d29ed56",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux/bluetooth.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e1465d59a9ca8c1e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux/bluetooth.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3f941549ef55ff14",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "77da167a8e31eb01",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux/bluetooth.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "59b4d3752b35c771",
+  "lastOpenFiles": [
+    "Linux/cursors.md",
+    "Linux/Calibre.md",
+    "Linux/Btrfs.md",
+    "Linux/Monitoring tools/btop.md",
+    "Linux/Web Browsers/Brave.md",
+    "Linux/bluetooth.md",
+    "Linux/Password Manager/bitwarden.md",
+    "Linux/Utilities/bat.md",
+    "Linux/Monitoring tools.md",
+    "Linux/fonts.md"
+  ]
+}
