@@ -6,6 +6,7 @@
       {
         "id": "730b5fd2a5477d10",
         "type": "tabs",
+        "dimension": 52.22081218274111,
         "children": [
           {
             "id": "faf9f4b4ca86e46f",
@@ -135,13 +136,38 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9db849f0fc3d0233",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Btrfs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de117fe0de3ce814",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Btrfs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       },
       {
         "id": "ca5ddffb72e5272d",
         "type": "tabs",
+        "dimension": 47.77918781725889,
         "children": [
           {
             "id": "f7fe5e2ad397ad21",
@@ -225,7 +251,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -245,7 +272,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/bluetooth.md",
+                "file": "Linux/Btrfs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/bluetooth.md",
+                "file": "Linux/Btrfs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +312,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/bluetooth.md"
+                "file": "Linux/Btrfs.md"
               }
             }
           }
@@ -306,17 +333,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59b4d3752b35c771",
+  "active": "34de3b46a005b854",
   "lastOpenFiles": [
+    "Linux/Default shell.md",
+    "Linux/Btrfs.md",
+    "Filesystem.md",
+    "Linux/Chaotic-AUR.md",
     "Linux/cursors.md",
     "Linux/Calibre.md",
-    "Linux/Btrfs.md",
+    "Linux/bluetooth.md",
     "Linux/Monitoring tools/btop.md",
     "Linux/Web Browsers/Brave.md",
-    "Linux/bluetooth.md",
-    "Linux/Password Manager/bitwarden.md",
-    "Linux/Utilities/bat.md",
-    "Linux/Monitoring tools.md",
-    "Linux/fonts.md"
+    "Linux/Password Manager/bitwarden.md"
   ]
 }
