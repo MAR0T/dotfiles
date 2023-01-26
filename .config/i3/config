@@ -57,7 +57,8 @@ exec --no-startup-id volumeicon			# volume icon
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id blueberry-tray		# bluetooth icon
 exec --no-startup-id xfce4-clipman
-exec --no-startup-id snapper -c marek_home create -d "after login" # makes btrfs snapshot
+exec --no-startup-id snapper -c root create -d "after successful login" # makes btrfs snapshot
+exec --no-startup-id snapper -c home create -d "Home: after successful login" # makes btrfs snapshot
 
 # Start my normal apps
 # Use xprop to find WM_CLASS
@@ -166,9 +167,9 @@ set $ws9 "9"
 set $ws10 "10"
 
 # Define monitors
-set $monitor_left DP-0
-set $monitor_center DP-2
-set $monitor_right DP-5
+set $monitor_left DP-4
+set $monitor_center DP-0
+set $monitor_right DP-2
 
 # Setup workspaces
 workspace $ws1 output $monitor_left
