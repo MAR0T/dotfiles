@@ -1,1 +1,0 @@
-Thunar is a file manager

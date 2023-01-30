@@ -1,0 +1,1 @@
+`caja` is a `MATE` file manager. 

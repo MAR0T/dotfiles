@@ -6,7 +6,6 @@
       {
         "id": "730b5fd2a5477d10",
         "type": "tabs",
-        "dimension": 52.22081218274111,
         "children": [
           {
             "id": "faf9f4b4ca86e46f",
@@ -18,8 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "b7bd5fa19d3302af"
+            }
           },
           {
             "id": "d4b185c2a08a01d9",
@@ -48,18 +46,6 @@
               "type": "markdown",
               "state": {
                 "file": "Linux/Macros/AutoKey.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "028a6c5f276de0e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Monitoring tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -155,27 +141,267 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Btrfs.md",
+                "file": "Linux/Web Browsers/Brave.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "d86a8c221c4ef5b1"
+          },
+          {
+            "id": "88260fa68637b466",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "910dee10b84b8025",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/File Manager/Thunar.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4484224adcf17b9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/File Manager/Caja.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f289065572e89dc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Terminal gadgets/cmatrix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3910a379e072d5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/dmenu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5df438cbb38eef3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/exa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7114f1b2e7326b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Notofications/Dunst.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97daf2502fcccf9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Web Browsers/Brave.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5913a837f5d4b11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Web Browsers/Firefox.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b8ebb6002d56dbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Web Browsers/Brave.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eab83cb0aa869446",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "foliate.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9a7ee8d32eae158",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/font-manager.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c2df422797888eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Gnome Utilities/Gnome utilities.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72a0c97ac5c0c551",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/i3wm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfe37ba6dc1fb82a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Monitoring tools/iotop.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dda6fe5d912c4a72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Java.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "358d47d73bb7648a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/jq.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51411bb5927805f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Password Manager/KeepassXC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aee2d71ddb9a89e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Games/Lutris.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae2e54f787e4cf92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Games/Lutris.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 31
       },
       {
-        "id": "ca5ddffb72e5272d",
+        "id": "72a256fafd779656",
         "type": "tabs",
-        "dimension": 47.77918781725889,
         "children": [
           {
-            "id": "f7fe5e2ad397ad21",
+            "id": "a6ca2b1c31482a6e",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "My own linux setup.md",
+                "file": "Linux/Web Browsers/Brave.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +429,7 @@
                 }
               }
             },
-            "group": "b7bd5fa19d3302af"
+            "group": "d86a8c221c4ef5b1"
           }
         ]
       }
@@ -234,7 +460,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "btrfs-a",
+                "query": "ly",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -251,8 +477,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -272,7 +497,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Btrfs.md",
+                "file": "Linux/Games/Lutris.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -289,7 +514,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Btrfs.md",
+                "file": "Linux/Games/Lutris.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,7 +537,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Btrfs.md"
+                "file": "Linux/Games/Lutris.md"
               }
             }
           }
@@ -333,17 +558,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "34de3b46a005b854",
+  "active": "bc8ed9479b0f9efd",
   "lastOpenFiles": [
-    "Linux/Default shell.md",
-    "Linux/Btrfs.md",
-    "Filesystem.md",
-    "Linux/Chaotic-AUR.md",
-    "Linux/cursors.md",
-    "Linux/Calibre.md",
-    "Linux/bluetooth.md",
-    "Linux/Monitoring tools/btop.md",
-    "Linux/Web Browsers/Brave.md",
-    "Linux/Password Manager/bitwarden.md"
+    "Linux/Games/Steam.md",
+    "Linux/Games/Lutris.md",
+    "Linux/Games/Heroic Games Launcher.md",
+    "Linux/Password Manager/KeepassXC.md",
+    "Linux/jq.md",
+    "Linux/Java.md",
+    "Linux/Monitoring tools/iotop.md",
+    "Linux/Monitoring tools/htop.md",
+    "Linux/i3wm.md",
+    "Linux/Gnome Utilities/Gnome utilities.md"
   ]
 }

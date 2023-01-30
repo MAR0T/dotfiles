@@ -1,0 +1,1 @@
+`exa` is a replacement for `ls`

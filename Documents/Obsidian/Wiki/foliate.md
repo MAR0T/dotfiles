@@ -1,0 +1,1 @@
+`foliate` is a simple and modern GTK Ebook Reader 
