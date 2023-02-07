@@ -10,3 +10,8 @@
 8. [[Virtual Machines]]
 9. [[Utilities]]
 10. [Cloud storage](MEGA.md)
+
+### Installation
+
+1. [[Kernel and drivers]]
+2. 

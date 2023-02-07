@@ -6,6 +6,7 @@
       {
         "id": "730b5fd2a5477d10",
         "type": "tabs",
+        "dimension": 68.21065989847715,
         "children": [
           {
             "id": "faf9f4b4ca86e46f",
@@ -13,7 +14,44 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Linux/Monitoring tools.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "14d00e2dc0702657"
+          },
+          {
+            "id": "36f2b820825d3b22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "My own linux setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db963c330005126f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Kernel/Kernel and drivers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85751e26de547be3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Journal.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,8 +183,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "d86a8c221c4ef5b1"
+            }
           },
           {
             "id": "88260fa68637b466",
@@ -389,19 +426,20 @@
             }
           }
         ],
-        "currentTab": 31
+        "currentTab": 3
       },
       {
-        "id": "72a256fafd779656",
+        "id": "b9c195b9be20b5e3",
         "type": "tabs",
+        "dimension": 31.78934010152285,
         "children": [
           {
-            "id": "a6ca2b1c31482a6e",
+            "id": "6dc30fdcf5816422",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Web Browsers/Brave.md",
+                "file": "Linux/Monitoring tools.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -429,7 +467,7 @@
                 }
               }
             },
-            "group": "d86a8c221c4ef5b1"
+            "group": "14d00e2dc0702657"
           }
         ]
       }
@@ -460,7 +498,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ly",
+                "query": "zsh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -497,7 +535,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Games/Lutris.md",
+                "file": "Linux/Journal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -514,7 +552,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Games/Lutris.md",
+                "file": "Linux/Journal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -537,7 +575,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Games/Lutris.md"
+                "file": "Linux/Journal.md"
               }
             }
           }
@@ -558,17 +596,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bc8ed9479b0f9efd",
+  "active": "85751e26de547be3",
   "lastOpenFiles": [
+    "Linux/Kernel/Kernel and drivers.md",
+    "My own linux setup.md",
+    "Linux/Monitoring tools.md",
+    "Linux/Monitoring tools/bashtop.md",
+    "Linux/Monitoring tools/battop.md",
+    "Linux/Notofications/Dunst.md",
+    "Linux/catfish.md",
+    "Linux/Default shell.md",
     "Linux/Games/Steam.md",
-    "Linux/Games/Lutris.md",
-    "Linux/Games/Heroic Games Launcher.md",
-    "Linux/Password Manager/KeepassXC.md",
-    "Linux/jq.md",
-    "Linux/Java.md",
-    "Linux/Monitoring tools/iotop.md",
-    "Linux/Monitoring tools/htop.md",
-    "Linux/i3wm.md",
-    "Linux/Gnome Utilities/Gnome utilities.md"
+    "Linux/Games/Lutris.md"
   ]
 }
