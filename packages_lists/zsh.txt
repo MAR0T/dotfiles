@@ -4,5 +4,6 @@ zsh-doc
 zsh-history-substring-search-git
 zsh-syntax-highlighting
 zsh-theme-powerlevel10k-git
+ttf-meslo-nerd-font-powerlevel10k
 oh-my-zsh-git
 

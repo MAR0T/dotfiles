@@ -1,0 +1,10 @@
+alsa-firmware
+alsa-lib
+alsa-plugins
+alsa-utils
+pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
+pulseaudio-zeroconf
+pulsemixer
+cava

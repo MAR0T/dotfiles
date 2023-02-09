@@ -1,0 +1,17 @@
+arcolinux-i3wm-git
+i3-wm
+i3blocks
+i3status
+volumeicon
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-megasync
+thunar-volman
+rofi
+caja
+dmenu
+dunst
+exa
+feh
+catfish
