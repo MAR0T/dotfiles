@@ -15,3 +15,8 @@ dunst
 exa
 feh
 catfish
+mc
+ranger
+polkit
+polkit-gnome
+picom
