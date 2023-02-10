@@ -1,7 +1,6 @@
 xdotool
 vlc
 veracrypt
-steam
 speedtest-cli-git
 qbittorrent
 obs-studio
