@@ -1,3 +1,4 @@
 # My home 3-monitor setup
 #xrandr --output DP-0 --mode 1920x1080 --refresh 74.97 --output DP-2 --primary --mode 1920x1080 --rate 164.83 --right-of DP-0 --output DP-5 --mode 1920x1080 --rate 74.97 --right-of DP-2
-xrandr --output DP-4 --mode 1920x1080 --refresh 74.97 --output DP-0 --primary --mode 1920x1080 --rate 164.83 --right-of DP-4 --output DP-2 --mode 1920x1080 --rate 74.97   --right-of DP-0
+xrandr --output HDMI-5 --mode 1920x1080 --refresh 60 --output DP-3 --primary --mode 1920x1080 --rate 164.83 --right-of HDMI-5 --output DP-1-1 --mode 1920x1080 --rate 74.99 --right-of DP-3
+
