@@ -20,3 +20,10 @@ ranger
 polkit
 polkit-gnome
 picom
+zenity
+slock
+gnome-disk-utility
+gnome-screenshot
+gnome-system-monitor
+flameshot
+copyq

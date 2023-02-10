@@ -1,0 +1,10 @@
+ripgrep
+pv
+at
+bat
+p7zip
+ncdu
+jq
+gnomon
+dialog
+diffutils

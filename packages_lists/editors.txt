@@ -1,0 +1,7 @@
+nano
+vim
+visual-studio-code-bin
+sublime-text-4
+notepadqq
+intellij-idea-community-edition
+geany

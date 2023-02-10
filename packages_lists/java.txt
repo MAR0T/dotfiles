@@ -1,0 +1,3 @@
+jdk-openjdk
+jdk11-openjdk
+jdk8-openjdk

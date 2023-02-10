@@ -1,0 +1,6 @@
+dotnet-sdk
+mono
+mono-addins
+mono-msbuild
+mono-msbuild-sdkresolver
+mono-tools

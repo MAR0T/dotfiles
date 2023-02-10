@@ -41,3 +41,5 @@ xfwm4
 xfwm4-themes
 arcolinux-local-xfce4-git
 arcolinux-xfce-git
+capitaine-cursors
+bibata-cursor-theme-bin

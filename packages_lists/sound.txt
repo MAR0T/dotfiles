@@ -8,3 +8,4 @@ pulseaudio-bluetooth
 pulseaudio-zeroconf
 pulsemixer
 cava
+pavucontrol

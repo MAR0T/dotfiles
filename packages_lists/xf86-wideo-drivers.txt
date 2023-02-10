@@ -4,3 +4,4 @@ xf86-video-fbdev
 xf86-video-intel
 xf86-video-openchrome
 xf86-video-vesa
+intel-ucode
