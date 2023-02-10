@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My own linux setup.md",
+                "file": "Linux/Btrfs.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "My own linux setup.md",
+                "file": "Linux/Btrfs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My own linux setup.md",
+                "file": "Linux/Btrfs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My own linux setup.md",
+                "file": "Linux/Btrfs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My own linux setup.md"
+                "file": "Linux/Btrfs.md"
               }
             }
           }
@@ -215,15 +215,15 @@
   },
   "active": "36f2b820825d3b22",
   "lastOpenFiles": [
-    "Linux/Monitoring tools.md",
-    "Linux/Journal.md",
-    "Linux/Kernel/Kernel and drivers.md",
-    "My own linux setup.md",
-    "Linux/Monitoring tools/bashtop.md",
-    "Linux/Monitoring tools/battop.md",
+    "Linux/bluetooth.md",
+    "Linux/Audio Visualizer.md",
+    "Linux/Arch.md",
     "Linux/Notofications/Dunst.md",
-    "Linux/catfish.md",
-    "Linux/Default shell.md",
-    "Linux/Games/Steam.md"
+    "Linux/Kernel/Kernel and drivers.md",
+    "Linux/Gnome Utilities/Gnome utilities.md",
+    "Linux/Cloud storage/MEGA.md",
+    "Linux/Journal.md",
+    "Linux/Btrfs.md",
+    "Linux/Default shell.md"
   ]
 }

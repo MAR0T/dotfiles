@@ -1,7 +1,7 @@
 ### Install zsh wth plugins
 
 ```sh
-sudo pacman -S --needed - < ~/packages_lists/zsh
+sudo pacman -S --needed - < ~/packages_lists/zsh.txt
 ~/link_zsh_plugins_themes.sh
 ```
 

@@ -32,3 +32,25 @@ exec --no-startup-id snapper -c root create -d "after successful login" # makes 
 * sudo btrfs-assistant
 
 Allows to restore files from snapshots, list all kept snapshots and configure snapshots retention.
+
+## Snapshots
+Set 
+```
+ALLOW_USERS="<USER>"
+ALLOW_GROUPS="<GROUP>"
+SYNC_ACL="yes"
+
+# limits for timeline cleanup
+TIMELINE_MIN_AGE="1800"
+TIMELINE_LIMIT_HOURLY="10"
+TIMELINE_LIMIT_DAILY="10"
+TIMELINE_LIMIT_WEEKLY="0"
+TIMELINE_LIMIT_MONTHLY="10"
+TIMELINE_LIMIT_YEARLY="10"
+```
+in `/etc/snapper/configs/root`
+
+```
+sudo snapper -c home create-config /home
+```
+Apply the same changes in `/etc/snapper/configs/home`
