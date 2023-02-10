@@ -25,9 +25,6 @@ sudo pacman -S --needed - < packages_lists/top.txt
 sudo pacman -S --needed - < packages_lists/btrfs.txt
 sudo pacman -S --needed - < packages_lists/fonts.txt
 sudo pacman -S --needed - < packages_lists/sound.txt
-sudo pacman -S --needed - < packages_lists/wireless.txt
-sudo pacman -S --needed - < packages_lists/xf86-input-drivers.txt
-sudo pacman -S --needed - < packages_lists/xf86-wideo-drivers.txt
 sudo pacman -S --needed - < packages_lists/ascii_gadgets.txt
 sudo pacman -S --needed - < packages_lists/browsers.txt
 sudo pacman -S --needed - < packages_lists/documentation.txt
@@ -41,9 +38,8 @@ sudo pacman -S --needed - < packages_lists/fish.txt
 sudo pacman -S --needed - < packages_lists/xfce4.txt
 sudo pacman -S --needed - < packages_lists/docker.txt
 sudo pacman -S --needed - < packages_lists/virtual-machines.txt
-sudo pacman -S --needed - < packages_lists/xfce4.txt
 sudo pacman -S --needed - < packages_lists/printer.txt
-sudo pacman -S --needed - < packages_lists/mesa.txt
+sudo pacman -S steam
 sudo pacman -S ly
 sudo systemctl disable sddm.service
 sudo systemctl enable ly.service
