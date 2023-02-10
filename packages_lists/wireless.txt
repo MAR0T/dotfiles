@@ -5,6 +5,5 @@ blueberry
 bluez
 bluez-libs
 bluez-utils
-brave-bin
 bridge-utils
 broadcom-wl-dkms

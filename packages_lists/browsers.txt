@@ -3,3 +3,4 @@ vivaldi-ffmpeg-codecs
 vivaldi-widevine
 firefox
 firefox-ublock-origin
+brave-bin
