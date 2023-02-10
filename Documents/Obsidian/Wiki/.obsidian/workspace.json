@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Btrfs.md",
+                "file": "Linux/Kernel/Kernel and drivers.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Btrfs.md",
+                "file": "Linux/Kernel/Kernel and drivers.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zsh",
+                "query": "gru",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +132,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Btrfs.md",
+                "file": "Linux/Kernel/Kernel and drivers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Btrfs.md",
+                "file": "Linux/Kernel/Kernel and drivers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Btrfs.md"
+                "file": "Linux/Kernel/Kernel and drivers.md"
               }
             }
           }
@@ -215,15 +216,15 @@
   },
   "active": "36f2b820825d3b22",
   "lastOpenFiles": [
-    "Linux/bluetooth.md",
-    "Linux/Audio Visualizer.md",
     "Linux/Arch.md",
-    "Linux/Notofications/Dunst.md",
-    "Linux/Kernel/Kernel and drivers.md",
-    "Linux/Gnome Utilities/Gnome utilities.md",
-    "Linux/Cloud storage/MEGA.md",
-    "Linux/Journal.md",
+    "Linux/Audio Visualizer.md",
+    "Linux/bluetooth.md",
     "Linux/Btrfs.md",
-    "Linux/Default shell.md"
+    "Linux/Calibre.md",
+    "Linux/catfish.md",
+    "Linux/Chaotic-AUR.md",
+    "Linux/cursors.md",
+    "Linux/Default shell.md",
+    "Linux/dmenu.md"
   ]
 }

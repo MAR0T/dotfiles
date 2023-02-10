@@ -34,3 +34,21 @@ and run:
 ```sh
 update-grub
 ```
+
+Better way to **reorder latest and LTS kernel versions** is changing
+
+```
+version_sort -r
+```
+
+to
+
+```
+version_sort -V
+```
+
+in `/etc/grub.d/10_linux` and running
+
+```sh
+update-grub
+```
