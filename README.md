@@ -41,6 +41,8 @@ sudo pacman -S --needed - < packages_lists/virtual-machines.txt
 sudo pacman -S --needed - < packages_lists/printer.txt
 sudo pacman -S steam
 sudo pacman -S ly
+sudo systemctl enable libvirtd.service
+sudo systemctl start libvirtd.service
 sudo systemctl disable sddm.service
 sudo systemctl enable ly.service
 # You can now reboot and see minimal ly display manager
