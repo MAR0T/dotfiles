@@ -2,12 +2,12 @@ If monitor supports ddc, it can be controlled using ddcutil.
 
 ```sh
 sudo modprobe i2c-dev
-# Display 2 = left screen
+# Display 3 = left screen
 # 60 = input
 # 0x0f = DP
 # 0x11 = HDMI
 
-sudo ddcutil -d 1 setvcp 60 0x11
+sudo ddcutil -d 3 setvcp 60 0x11
 ```
 
 To list supported monitors run:
