@@ -15,6 +15,7 @@ sudo modprobe i2c-dev
 # 0x0f = DP
 # 0x11 = HDMI
 
+sudo ddcutil -d 3 setvcp 60 0x0f
 sudo ddcutil -d 2 setvcp 60 0x0f
 sudo ddcutil -d 1 setvcp 60 0x0f
 
