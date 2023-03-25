@@ -1,4 +1,4 @@
-`BlueZ`
+s`BlueZ`
 
 ```sh
 sudo pacman -S bluez bluez-libs bluez-utils

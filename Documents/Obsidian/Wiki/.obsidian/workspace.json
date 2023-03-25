@@ -14,6 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Linux/Kernel/Kernel and drivers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "776e8b17e152fcd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Linux/Virtual machines/KVM.md",
                 "mode": "source",
                 "backlinks": false,
@@ -47,7 +60,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b9c195b9be20b5e3",
@@ -118,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gru",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,13 +212,21 @@
                 "file": "Linux/Virtual machines/KVM.md"
               }
             }
+          },
+          {
+            "id": "36583a9d2f956665",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,17 +239,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36f2b820825d3b22",
+  "active": "776e8b17e152fcd9",
   "lastOpenFiles": [
+    "foliate.md",
+    "Music.md",
+    "Linux/Java.md",
     "Linux/Kernel/Kernel and drivers.md",
+    "Linux/Monitor switch video source.md",
+    "Linux/ymuse.md",
+    "Linux/Virtual Machines.md",
+    "Linux/Virtual machines/KVM.md",
+    "Linux/bluetooth.md",
     "Linux/Arch.md",
     "Linux/Audio Visualizer.md",
-    "Linux/bluetooth.md",
     "Linux/Btrfs.md",
     "Linux/Calibre.md",
     "Linux/catfish.md",
     "Linux/Chaotic-AUR.md",
-    "Linux/cursors.md",
-    "Linux/Default shell.md"
+    "Linux/cursors.md"
   ]
 }
