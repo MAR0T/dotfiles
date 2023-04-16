@@ -4,7 +4,7 @@
 # Script name   : monitor_switch_Windows.sh
 # Description	:                                                                                 
 # Created date  : 25.03.2023
-# Modified date : 25.03.2023
+# Modified date : 27.03.2023
 # Author       	: Marek Tomczewski                                                
 # Email         : marek.tomczewski@gmail.com                                           
 #######################################################################
