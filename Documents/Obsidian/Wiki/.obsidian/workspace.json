@@ -27,7 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Virtual machines/KVM.md",
+                "file": "Obsidian Guide.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4ad528cd970720c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Wireless headphones.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -61,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "b9c195b9be20b5e3",
@@ -74,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Virtual machines/KVM.md",
+                "file": "Linux/Wireless headphones.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -132,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "headph",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Virtual machines/KVM.md",
+                "file": "Linux/Wireless headphones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Virtual machines/KVM.md",
+                "file": "Linux/Wireless headphones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Virtual machines/KVM.md"
+                "file": "Linux/Wireless headphones.md"
               }
             }
           },
@@ -239,17 +252,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "776e8b17e152fcd9",
+  "active": "e4ad528cd970720c",
   "lastOpenFiles": [
-    "foliate.md",
+    "Obsidian Guide.md",
+    "Linux/Wireless headphones.md",
     "Music.md",
-    "Linux/Java.md",
+    "foliate.md",
+    "Linux/bluetooth.md",
     "Linux/Kernel/Kernel and drivers.md",
     "Linux/Monitor switch video source.md",
+    "Linux/Virtual machines/KVM.md",
+    "Linux/Java.md",
     "Linux/ymuse.md",
     "Linux/Virtual Machines.md",
-    "Linux/Virtual machines/KVM.md",
-    "Linux/bluetooth.md",
     "Linux/Arch.md",
     "Linux/Audio Visualizer.md",
     "Linux/Btrfs.md",
