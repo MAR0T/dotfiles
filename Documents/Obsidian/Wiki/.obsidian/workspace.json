@@ -6,7 +6,7 @@
       {
         "id": "730b5fd2a5477d10",
         "type": "tabs",
-        "dimension": 68.21065989847715,
+        "dimension": 69.2258883248731,
         "children": [
           {
             "id": "36f2b820825d3b22",
@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Wireless headphones.md",
+                "file": "Linux/Virtual machines/VM.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -79,7 +79,7 @@
       {
         "id": "b9c195b9be20b5e3",
         "type": "tabs",
-        "dimension": 31.78934010152285,
+        "dimension": 30.774111675126903,
         "children": [
           {
             "id": "6dc30fdcf5816422",
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Wireless headphones.md",
+                "file": "Linux/Virtual machines/VM.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -110,7 +110,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.8360386601669951,
                   "close": false
                 }
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "headph",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,6 +159,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "21326b44540823aa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -182,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Wireless headphones.md",
+                "file": "Linux/Virtual machines/VM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Wireless headphones.md",
+                "file": "Linux/Virtual machines/VM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Wireless headphones.md"
+                "file": "Linux/Virtual machines/VM.md"
               }
             }
           },
@@ -239,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,14 +263,16 @@
   },
   "active": "e4ad528cd970720c",
   "lastOpenFiles": [
-    "Obsidian Guide.md",
+    "Linux/Virtual machines/VFIO.md",
+    "Linux/Virtual machines/VM.md",
+    "Linux/Virtual machines/KVM.md",
+    "Linux/Monitor switch video source.md",
+    "Linux/Kernel/Kernel and drivers.md",
     "Linux/Wireless headphones.md",
+    "Obsidian Guide.md",
     "Music.md",
     "foliate.md",
     "Linux/bluetooth.md",
-    "Linux/Kernel/Kernel and drivers.md",
-    "Linux/Monitor switch video source.md",
-    "Linux/Virtual machines/KVM.md",
     "Linux/Java.md",
     "Linux/ymuse.md",
     "Linux/Virtual Machines.md",
