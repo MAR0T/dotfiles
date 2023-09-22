@@ -266,3 +266,56 @@ Final XML of my VM:
   </qemu:commandline>
 </domain>
 ```
+
+# CPU isolation
+
+## Manual scripts
+
+`~/.local/bin/isolate_cpus.sh`
+```bash
+#!/bin/bash
+
+sudo systemctl set-property --runtime -- user.slice AllowedCPUs=18-23
+sudo systemctl set-property --runtime -- system.slice AllowedCPUs=18-23
+sudo systemctl set-property --runtime -- init.scope AllowedCPUs=18-23
+```
+
+`~/.local/bin/deisolate_cpus.sh`
+```bash
+#!/bin/bash
+
+sudo systemctl set-property --runtime -- user.slice AllowedCPUs=0-23
+sudo systemctl set-property --runtime -- system.slice AllowedCPUs=0-23
+sudo systemctl set-property --runtime -- init.scope AllowedCPUs=0-23
+```
+## Automatic isolation when VM is started and deisolation after VM is closed
+
+1. Create directory `/etc/libvirt/hooks`
+2. Create file `/etc/libvirt/hooks/qemu`
+
+```bash
+#!/bin/bash
+
+case "$2" in
+"prepare")
+	#enable_isolation
+	systemctl set-property --runtime -- user.slice AllowedCPUs=18-23
+	systemctl set-property --runtime -- system.slice AllowedCPUs=18-23
+	systemctl set-property --runtime -- init.scope AllowedCPUs=18-23
+	;;
+"started")
+	;;
+"release")
+	#disable_isolation
+	systemctl set-property --runtime -- user.slice AllowedCPUs=0-23
+	systemctl set-property --runtime -- system.slice AllowedCPUs=0-23
+	systemctl set-property --runtime -- init.scope AllowedCPUs=0-23
+	;;
+esac
+```
+
+2. Make it executable
+3. Restart the service: `sudo systemctl restart libvirtd`
+4. Check there are no issues in `sudo systemctl status libvirtd`
+
+More: https://passthroughpo.st/simple-per-vm-libvirt-hooks-with-the-vfio-tools-hook-helper/

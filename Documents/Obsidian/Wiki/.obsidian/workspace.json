@@ -79,7 +79,7 @@
       {
         "id": "b9c195b9be20b5e3",
         "type": "tabs",
-        "dimension": 30.774111675126903,
+        "dimension": 30.774111675126907,
         "children": [
           {
             "id": "6dc30fdcf5816422",
@@ -170,7 +170,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -261,11 +262,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4ad528cd970720c",
+  "active": "36583a9d2f956665",
   "lastOpenFiles": [
     "Linux/Virtual machines/VFIO.md",
-    "Linux/Virtual machines/VM.md",
     "Linux/Virtual machines/KVM.md",
+    "Linux/Journal.md",
+    "Linux/Virtual machines/VM.md",
     "Linux/Monitor switch video source.md",
     "Linux/Kernel/Kernel and drivers.md",
     "Linux/Wireless headphones.md",
