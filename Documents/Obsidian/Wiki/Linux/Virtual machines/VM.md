@@ -319,3 +319,7 @@ esac
 4. Check there are no issues in `sudo systemctl status libvirtd`
 
 More: https://passthroughpo.st/simple-per-vm-libvirt-hooks-with-the-vfio-tools-hook-helper/
+
+### Testing
+
+You can test task scheduling by running `stress --cpu <number>` and running your VM during stress testing. 
