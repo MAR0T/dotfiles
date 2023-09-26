@@ -323,3 +323,13 @@ More: https://passthroughpo.st/simple-per-vm-libvirt-hooks-with-the-vfio-tools-h
 ### Testing
 
 You can test task scheduling by running `stress --cpu <number>` and running your VM during stress testing. 
+
+## Automatic switching back monitors after VM is closed
+
+1. Add to file `/etc/libvirt/hooks/qemu` in release section:
+
+```bash
+sudo -u marek DISPLAY=:0 bash /home/marek/.xprofile
+```
+
+2. Restart the service: `sudo systemctl restart libvirtd`

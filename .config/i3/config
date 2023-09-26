@@ -50,6 +50,7 @@ assign [class="^Chromium$"] $ws1
 assign [class="^firefox$"] $ws1
 assign [class="^obsidian$"] $ws1
 assign [class="^Ymuse$"] $ws3
+assign [class="^Synergy$"] $ws3
 
 exec --no-startup-id picom -b			# composition manager
 exec --no-startup-id hsetroot -solid "#000000"  # set background
@@ -63,6 +64,7 @@ exec --no-startup-id snapper -c home create -d "Home: after successful login" # 
 # Start my normal apps
 # Use xprop to find WM_CLASS
 
+exec --no-startup-id flatpak run com.symless.Synergy
 exec --no-startup-id firefox
 exec --no-startup-id vivaldi-stable 
 exec --no-startup-id i3-msg "workspace $ws2; exec terminator; workspace $ws2"
