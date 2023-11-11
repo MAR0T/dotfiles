@@ -70,3 +70,8 @@ sudo systemctl status monitor_switch_HDMI.timer
 sudo systemctl status monitor_switch_HDMI.service
 ```
 It will show logs and time when it was or will be executed.
+
+### Single monitor mode in Windows
+
+`Win+P - Only PC Monitor` - turns off all monitors except main one
+`Win+P - Extend Displays` - turns back on all secondary monitors

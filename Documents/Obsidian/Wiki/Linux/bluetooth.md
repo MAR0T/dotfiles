@@ -9,3 +9,6 @@ sudo pacman -S bluez bluez-libs bluez-utils
 ```sh
 sudo pacman -S blueberry
 ```
+
+To change profile of bluetooth headphones and treat it as headset with microfone use `pavucontrol` GUI utility. Profile can be changed on Configuration page.
+
