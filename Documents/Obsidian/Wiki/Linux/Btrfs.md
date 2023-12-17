@@ -24,8 +24,8 @@ sudo snapper -c config_name create-config /path/to/subvolume
 * On each login to [[i3wm]]
 
 ```
-exec --no-startup-id snapper -c home create -d "Home: after login" # makes btrfs snapshot
-exec --no-startup-id snapper -c root create -d "after successful login" # makes btrfs snapshot
+exec --no-startup-id snapper -c home create -d "Home: after login" -c timeline # makes btrfs snapshot
+exec --no-startup-id snapper -c root create -d "after successful login" -c timeline # makes btrfs snapshot
 ```
 
 ## Useful GUI apps
