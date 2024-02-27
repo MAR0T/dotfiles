@@ -12,7 +12,7 @@ Create `/etc/modprobe.d/kvm-intel.conf` file with content
 options kvm-intel nested=1
 ```
 
-Reboot and verify featury is activated by
+Reboot and verify feature is activated by
 
 ```sh
 systool -m kvm_intel -v | grep nested

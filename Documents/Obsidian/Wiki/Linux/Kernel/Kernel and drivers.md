@@ -52,3 +52,12 @@ in `/etc/grub.d/10_linux` and running
 ```sh
 update-grub
 ```
+
+### Show Windows instance from specific partition only
+
+In `/etc/grub.d/30_os-prober` modify command with definition of **OSPROBED** by filtering results of `os-prober`
+
+```
+OSPROBED="`os-prober | grep 'nvme1n1p1' | tr ' ' '^' | paste -s -d ' '`"
+```
+
