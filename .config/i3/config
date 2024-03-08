@@ -173,9 +173,9 @@ set $ws9 "9"
 set $ws10 "10"
 
 # Define monitors
-set $monitor_left HDMI-A-4
-set $monitor_center DisplayPort-4
-set $monitor_right DisplayPort-3
+set $monitor_left HDMI-A-5
+set $monitor_center DisplayPort-7
+set $monitor_right DisplayPort-6
 
 # Setup workspaces
 workspace $ws1 output $monitor_left
