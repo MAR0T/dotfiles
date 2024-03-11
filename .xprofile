@@ -1,4 +1,4 @@
 # My home 3-monitor setup
 #xrandr --output DP-0 --mode 1920x1080 --refresh 74.97 --output DP-2 --primary --mode 1920x1080 --rate 164.83 --right-of DP-0 --output DP-5 --mode 1920x1080 --rate 74.97 --right-of DP-2
 #xrandr --output HDMI-A-4 --mode 1920x1080 --refresh 165.0 --output DisplayPort-4 --primary --mode 1920x1080 --rate 164.83 --right-of HDMI-A-4 --output DisplayPort-3 --mode 1920x1080 --rate 74.99 --right-of DisplayPort-4
-xrandr --output HDMI-A-5 --mode 1920x1080 --refresh 165.0 --output DisplayPort-7 --primary --mode 1920x1080 --rate 164.83 --right-of HDMI-A-5 --output DisplayPort-6 --mode 1920x1080 --rate 74.97 --right-of DisplayPort-7
+xrandr --output HDMI-A-4 --mode 1920x1080 --refresh 165.0 --output DisplayPort-4 --primary --mode 1920x1080 --rate 164.83 --right-of HDMI-A-4 --output DisplayPort-3 --mode 1920x1080 --rate 74.97 --right-of DisplayPort-4
