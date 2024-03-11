@@ -139,15 +139,9 @@ softdep nvidia* pre: vfio-pci
 ```
 to clock nvidia driver if you have installed one.
 
-Also add devices to be blocked to `/etc/default/grub`
 ```
-GRUB_CMDLINE_LINUX_DEFAULT="audit=0 nvme_load=yes intel_iommu=on iommu=pt vfio-pci.ids=10de:2783,10de:22bc video=efifb:off"
-```
-
-
 To be safer, tell your OS which graphic card should it use instead.
 I needed to put file */etc/X11/xorg.conf.d/10-amd.conf*
-
 ```sh
 Section "Device"
 	Identifier "AMD Radeon"
