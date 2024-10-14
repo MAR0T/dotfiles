@@ -49,7 +49,15 @@ markup=pango
 [disk]
 command=./disk
 LABEL=  
-#DIR=/mnt/data
+DIR=/home
+ALERT_LOW=10
+interval=30
+
+[disk]
+command=./disk
+LABEL=  
+DIR=/
+ALERT_LOW=5
 interval=30
 
 [cpu_usage2]
