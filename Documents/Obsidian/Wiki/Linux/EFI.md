@@ -6,7 +6,7 @@ When bootloader is broken, you need to:
 4. Reinstall grub on EFI partition
 
 ```
-grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=<name>
+sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=<name>
 ```
 
 this will create new entry in EFI and a directory in `/boot/efi/EFI/<name>`
