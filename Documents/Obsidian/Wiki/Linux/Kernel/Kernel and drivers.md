@@ -58,6 +58,9 @@ update-grub
 In `/etc/grub.d/30_os-prober` modify command with definition of **OSPROBED** by filtering results of `os-prober`
 
 ```
-OSPROBED="`os-prober | grep 'nvme1n1p1' | tr ' ' '^' | paste -s -d ' '`"
+DISK_SERIAL="50026B7685FECDAE"
+WIN11_DISK="`lsblk -N | grep $DISK_SERIAL | cut -d' ' -f1`"
+OSPROBED="`os-prober | grep $WIN11_DISK | tr ' ' '^' | paste -s -d ' '`"
 ```
 
+Using specific DISK_SERIAL will make selection work regardless of order of disks during boot.
