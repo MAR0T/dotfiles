@@ -58,7 +58,7 @@ exec --no-startup-id volumeicon			# volume icon
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id blueberry-tray		# bluetooth icon
 exec --no-startup-id xfce4-clipman
-exec --no-startup-id snapper -c root create -d "after successful login" -c timeline # makes btrfs snapshot
+exec --no-startup-id snapper -c root create -d "after successful login" -c number # makes btrfs snapshot
 exec --no-startup-id snapper -c home create -d "Home: after successful login" -c timeline # makes btrfs snapshot
 exec --no-startup-id syncthing --no-browser
 exec --no-startup-id /home/marek/Documents/Projects/watch-website-changes/run.sh
