@@ -11,7 +11,7 @@
 
 [Solution](https://ostechnix.com/how-to-fix-warning-local-is-newer-than-community-error-in-arch-linux/)
 
-The below command will update all packages, then downgrade all affected packages.
+The below command will update all packages, then *downgrade* all affected packages.
 
 ```bash
 sudo pacman -Suu
@@ -23,5 +23,13 @@ Then, do the full upgrade using command:
 sudo pacman -Syyu
 ```
 
+## Checking if still used
 
+```
+pactree -r <package>
+```
+
+```
+pacman -Qi <package>
+```
 
