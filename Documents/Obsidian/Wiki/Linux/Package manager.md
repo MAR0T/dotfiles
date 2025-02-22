@@ -33,3 +33,6 @@ pactree -r <package>
 pacman -Qi <package>
 ```
 
+## Preventing compilation of dependencies from code when building AUR
+
+Search for \*-bin packages which **provides** the same functionality but are binary packages. Install them manually before upgrading your package and requirements will already be met.
