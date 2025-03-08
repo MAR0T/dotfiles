@@ -1,2 +1,4 @@
-cyberghostvpn-openresolv
-ymuse-bin
+driverctl
+electron30-bin
+reiserfsprogs
+xf86-video-openchrome
