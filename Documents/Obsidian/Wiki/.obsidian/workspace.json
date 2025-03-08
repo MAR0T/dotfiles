@@ -6,7 +6,7 @@
       {
         "id": "730b5fd2a5477d10",
         "type": "tabs",
-        "dimension": 69.2258883248731,
+        "dimension": 71.51015228426397,
         "children": [
           {
             "id": "36f2b820825d3b22",
@@ -16,22 +16,11 @@
               "state": {
                 "file": "Linux/Kernel/Kernel and drivers.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "776e8b17e152fcd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian Guide.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Kernel and drivers"
             }
           },
           {
@@ -40,37 +29,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/dmenu.md",
+                "file": "Windows/Wireless Headphones and external Microphone.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "781cc288d480bf54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Monitoring tools.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a601ecdaa7342a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Monitor switch video source.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Wireless Headphones and external Microphone"
             }
           },
           {
@@ -83,7 +48,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Kernel and drivers"
             }
           },
           {
@@ -96,16 +63,17 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Journal"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "b9c195b9be20b5e3",
         "type": "tabs",
-        "dimension": 30.774111675126907,
+        "dimension": 28.48984771573604,
         "children": [
           {
             "id": "6dc30fdcf5816422",
@@ -113,7 +81,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Monitor switch video source.md",
+                "file": "Linux/Kernel/Kernel and drivers.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -139,7 +107,9 @@
                   "scale": 0.8360386601669951,
                   "close": false
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Kernel and drivers"
             }
           }
         ]
@@ -161,8 +131,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -171,13 +144,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smart",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -185,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -193,10 +170,13 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -216,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Monitor switch video source.md",
+                "file": "Linux/EFI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +204,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for EFI"
             }
           },
           {
@@ -233,10 +215,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Monitor switch video source.md",
+                "file": "Linux/EFI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from EFI"
             }
           },
           {
@@ -247,7 +231,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -256,8 +242,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Monitor switch video source.md"
-              }
+                "file": "Linux/EFI.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of EFI"
             }
           },
           {
@@ -265,7 +253,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -287,35 +277,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5a601ecdaa7342a9",
+  "active": "34de3b46a005b854",
   "lastOpenFiles": [
-    "Linux/Virtual machines/VFIO.md",
-    "Linux/Virtual machines/VM.md",
-    "Linux/Virtual machines/KVM.md",
-    "Linux/i3wm.md",
-    "Linux/Monitoring tools/smartctl.md",
-    "Linux/Monitoring tools.md",
-    "Linux/Monitor switch video source.md",
-    "Linux/Package Manager/yay.md",
-    "Linux/Notofications/Dunst.md",
-    "Linux/EFI.md",
+    "Linux/Package manager.md",
+    "Linux/Chaotic-AUR.md",
     "Linux/Kernel/Kernel and drivers.md",
-    "Efiicient screen sharing/Moonlight.md",
+    "Windows/Wireless Headphones and external Microphone.md",
+    "Linux/EFI.md",
+    "Windows/Miniaturki w filmach x265.md",
+    "Windows/Winget.md",
+    "Obsidian Guide.md",
+    "foliate.md",
+    "Music.md",
+    "Linux/Wireless headphones.md",
+    "Linux/Audio Visualizer.md",
+    "Linux/Package Manager/pacman.md",
+    "Linux/Package Manager/pamac.md",
+    "Linux/Package Manager/yay.md",
+    "Linux/Image Viewer/feh.md",
+    "Linux/Drukowanie.md",
+    "Linux/Virtual machines/VM.md",
+    "Linux/Virtual machines/VFIO.md",
+    "Linux/Virtual machines/KVM.md",
+    "My own linux setup.md",
+    "Linux/Monitor switch video source.md",
+    "Utilities.md",
     "Shared memory.md",
-    "Efiicient screen sharing/parsec.md",
+    "Filesystem.md",
+    "Distribution.md",
     "Efiicient screen sharing",
-    "Untitled",
-    "Linux/Web Browsers/Firefox.md",
-    "Linux/Monitoring tools/battop.md",
-    "Linux/Java.md",
-    "Linux/Journal.md",
-    "Linux/jq.md",
-    "Linux/Monitoring tools/bashtop.md",
-    "Linux/Monitoring tools/btop.md",
-    "Linux/Monitoring tools/htop.md",
-    "Linux/Monitoring tools/iotop.md",
-    "Linux/Monitoring tools/nvtop.md",
-    "Linux/onefetch.md",
-    "Linux/dmenu.md"
+    "Untitled"
   ]
 }

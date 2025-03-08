@@ -1,0 +1,1 @@
+Zawartość folderu `/etc/skel` jest kopiowana do folderu domowego każdego nowo stworzonego użytkownika. 
