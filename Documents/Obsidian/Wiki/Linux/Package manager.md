@@ -36,3 +36,9 @@ pacman -Qi <package>
 ## Preventing compilation of dependencies from code when building AUR
 
 Search for \*-bin packages which **provides** the same functionality but are binary packages. Install them manually before upgrading your package and requirFements will already be met.
+
+## List all packages from specific repo
+List all packages installed from chaotic-aur
+```
+paclist chaotic-aur
+```
