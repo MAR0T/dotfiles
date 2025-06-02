@@ -4,4 +4,4 @@ export EDITOR=vim;
 
 export LIBVIRT_DEFAULT_URI=qemu:///system
 
-eval $(keychain --eval --agents ssh --quick --quiet)
+eval $(keychain --eval --quiet)
