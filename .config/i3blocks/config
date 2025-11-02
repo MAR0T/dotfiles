@@ -40,6 +40,10 @@ label=
 command=uname -r
 interval=once
 
+[monitor_switch]
+full_text=󰍹  Linux
+command=sudo /home/marek/.local/bin/monitor_switch_Linux.sh
+
 [location]
 label=  
 command=./location
@@ -88,7 +92,7 @@ T_CRIT=90
 
 [memory]
 command=./memory
-label= RAM 
+label=󰍛 RAM 
 interval=5
 
 #[memory]
@@ -129,6 +133,8 @@ command=date '+%Y-%m-%d  %H:%M:%S'
 interval=5
 
 [cat_icon]
-full_text=
+full_text= 
+#  
+# 
 interval=once
 

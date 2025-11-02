@@ -71,6 +71,34 @@ sudo systemctl status monitor_switch_HDMI.service
 ```
 It will show logs and time when it was or will be executed.
 
+### Switch monitor on i3blocks widget click
+
+1. Modify script for switching monitors not to use `sudo` inside, but require running whole script with `sudo <script>`
+```sh
+modprobe i2c-dev
+# Display 2 = left screen
+# 60 = input
+# 0x0f = DP
+# 0x11 = HDMI
+
+ddcutil -d 3 setvcp 60 0x11
+ddcutil -d 2 setvcp 60 0x11
+ddcutil -d 1 setvcp 60 0x1
+```
+
+2. Run `sudo visudo` to add line to sudoers file which will allow your user to run this specific script with sudo without being asked for password
+  ```
+  <user> ALL=(ALL:ALL) NOPASSWD: /<absolute path to script>
+  ``` 
+    
+3. Find nice icon in [Nerdfonts CheatSheet](https://www.nerdfonts.com/cheat-sheet)
+4. Modify *.config/i3blocks/config*
+```
+[monitor_switch]
+full_text=<monitor_icon>  switch 
+command=sudo /<absolute path to script>
+```
+
 ### Single monitor mode in Windows
 
 `Win+P - Only PC Monitor` - turns off all monitors except main one

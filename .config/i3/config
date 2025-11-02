@@ -270,5 +270,5 @@ bar {
 	status_command i3blocks -c ~/.config/i3blocks/config
 
 	# DejaVu Sans Mono
-	font pango:DejaVu Sans, Font Awesome 6 Free Solid 12
+	font pango:DejaVu Sans, Font Awesome 7 Free Solid 12
 }
