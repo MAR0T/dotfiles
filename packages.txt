@@ -1,6 +1,5 @@
 7zip
 accountsservice
-acidrip
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
@@ -73,6 +72,7 @@ docker-compose
 dosfstools
 dotnet-sdk
 downgrade
+driverctl
 dunst
 e2fsprogs
 edk2-shell
@@ -114,7 +114,6 @@ gnome-keyring
 gnome-screenshot
 gnome-system-monitor
 gnomon
-gnu-netcat
 gpart
 gparted
 gpm
@@ -170,6 +169,7 @@ jq
 keychain
 kvantum-qt5-git
 laptop-detect
+lazygit
 less
 libdvdcss
 libfido2
@@ -177,7 +177,6 @@ libgsf
 libguestfs
 libmtp
 libopenraw
-libpng12
 libpwquality
 librewolf
 libtool
@@ -217,7 +216,6 @@ mono
 mono-addins
 mono-msbuild
 mono-msbuild-sdkresolver
-mono-tools
 mousepad
 mtools
 mtpfs
@@ -330,13 +328,13 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+tk
 tldr
 tlp
 tmux
 tpm2-tss
 ttf-dejavu
 ttf-droid
-ttf-font-awesome
 ttf-hack
 ttf-inconsolata
 ttf-jetbrains-mono
@@ -370,6 +368,7 @@ visual-studio-code-bin
 vivaldi
 vivaldi-ffmpeg-codecs
 vlc
+vlc-plugins-all
 volumeicon
 vpnc
 w3m
@@ -380,6 +379,7 @@ which
 wireless-regdb
 wireless_tools
 wmctrl
+woff2-font-awesome
 wpa_supplicant
 wvdial
 xapp

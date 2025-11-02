@@ -1,14 +1,17 @@
+acidrip
 arc-darkest-theme-git
 arc-gtk-theme
 bibata-cursor-theme-bin
-driverctl
 electron30-bin
 gksu
+gnu-netcat
 grub-customizer
 hardcode-fixer-git
 jdownloader2
+libpng12
 megasync
 mintstick-git
+mono-tools
 neofetch
 paru-bin
 rate-mirrors-bin
@@ -18,7 +21,6 @@ termite
 urxvt-fullscreen
 urxvt-resize-font-git
 vagrant
-vivaldi-widevine
 vtop
 xdman
 xf86-video-openchrome

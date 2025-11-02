@@ -1,9 +1,0 @@
-wireless-regdb
-wireless_tools
-wpa_supplicant
-blueberry
-bluez
-bluez-libs
-bluez-utils
-bridge-utils
-broadcom-wl-dkms

@@ -1,5 +1,0 @@
-terminator
-termite
-alacritty
-tmux
-screen
