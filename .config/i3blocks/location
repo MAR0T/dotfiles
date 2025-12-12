@@ -1,9 +1,12 @@
 #!/bin/bash
 
-CITY=$(curl -s ipinfo.io | jq .city | sed 's/^.//;s/.$//')
-INITIAL_CITY="Gdańsk"
+LOCATION=$(curl -s ipinfo.io)
 
-if [[ "${CITY}" != "${INITIAL_CITY}"  ]]; then
+CITY=$(echo $LOCATION | jq .city | sed 's/^.//;s/.$//')
+COUNTRY=$(echo $LOCATION | jq .country | sed 's/^.//;s/.$//')
+INITIAL_COUNTRY="PL"
+
+if [[ "${COUNTRY}" != "${INITIAL_COUNTRY}"  ]]; then
 	echo "<span color='#f39c12'>${CITY}</span>"
 else
 	echo "${CITY}"
