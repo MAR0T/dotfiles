@@ -1,0 +1,18 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a device; this may
+# be used with UUID= as a more robust way to name devices that works even if
+# disks are added and removed. See fstab(5).
+#
+# <file system>             <mount point>  <type>  <options>  <dump>  <pass>
+UUID=FB36-2DEB                            /boot/efi                 vfat    umask=0077 0 2
+UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /                         btrfs   subvol=/@,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /root                     btrfs   subvol=/@root,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /srv                      btrfs   subvol=/@srv,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /var/cache                btrfs   subvol=/@cache,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /var/log                  btrfs   subvol=/@log,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /var/tmp                  btrfs   subvol=/@tmp,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /var/lib/libvirt/images   btrfs   subvol=/@/var/lib/libvirt/images,defaults,nodatacow,noatime,compress=no,discard=async 0 0
+UUID=6f01ec80-c423-414f-ab8a-16344ebc1e7b /home                     btrfs   subvol=/@home,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
+UUID=fccb7c39-303a-4d04-83f6-2dfaf2d724b7 none                      swap    sw 0 0	
+tmpfs                                     /tmp                      tmpfs   defaults,noatime,mode=1777 0 0
