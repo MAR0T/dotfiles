@@ -12,7 +12,7 @@ UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /srv                      btrfs   subv
 UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /var/cache                btrfs   subvol=/@cache,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
 UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /var/log                  btrfs   subvol=/@log,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
 UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /var/tmp                  btrfs   subvol=/@tmp,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
-UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /var/lib/libvirt/images   btrfs   subvol=/@/var/lib/libvirt/images,defaults,nodatacow,noatime,compress=no,discard=async 0 0
+#UUID=9f768e82-7ed6-4c2e-a6eb-77f3f5844d1d /var/lib/libvirt/images   btrfs   subvol=/@/var/lib/libvirt/images,defaults,noauto,x-systemd.automount,nodatacow,noatime,compress=no,discard=async 0 0
 UUID=6f01ec80-c423-414f-ab8a-16344ebc1e7b /home                     btrfs   subvol=/@home,defaults,noatime,noautodefrag,compress=zstd,discard=async,ssd 0 0
 UUID=fccb7c39-303a-4d04-83f6-2dfaf2d724b7 none                      swap    sw 0 0	
 tmpfs                                     /tmp                      tmpfs   defaults,noatime,mode=1777 0 0
