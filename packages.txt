@@ -31,10 +31,10 @@ binutils
 bison
 bitwarden
 bitwarden-cli
-blueberry
 bluez
 bluez-libs
 bluez-utils
+brightnessctl
 broadcom-wl-dkms
 btop
 btrfs-assistant
@@ -156,6 +156,7 @@ intel-ucode
 intellij-idea-community-edition
 inxi
 iotop
+iperf3
 iptables-nft
 irssi
 iw
@@ -173,6 +174,7 @@ lazygit
 less
 libdvdcss
 libfido2
+libgepub
 libgsf
 libguestfs
 libmtp

@@ -2,9 +2,9 @@ acidrip
 arc-darkest-theme-git
 arc-gtk-theme
 bibata-cursor-theme-bin
+blueberry
 electron30-bin
 gksu
-gnu-netcat
 grub-customizer
 hardcode-fixer-git
 jdownloader2
