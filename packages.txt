@@ -294,8 +294,6 @@ ristretto
 rofi
 rp-pppoe
 rsync
-rxvt-unicode
-rxvt-unicode-terminfo
 sardi-icons
 screen
 scrot
@@ -356,7 +354,6 @@ unrar
 unzip
 upd72020x-fw
 upower
-urxvt-perls
 usb_modeswitch
 usbmuxd
 usbutils
