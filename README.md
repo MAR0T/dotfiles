@@ -22,7 +22,16 @@ dotfiles config --local status.showUntrackedFiles no
 ./fonts_install.sh
 ```
 
-5. Install all packages
+5. Install AUR helper
+
+```
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+```
+
+6. Install all packages
 
 ```
 pacman -Sy archlinux-keyring keychain
@@ -31,13 +40,13 @@ pacman -Syu
 ./link_zsh_plugins_themes.sh
 ```
 
-6. Change default shell
+7. Change default shell
 
 ```
 chsh -s /bin/zsh
 ```
 
-7. Enable services, including new display manager
+8. Enable services, including new display manager
  
 ```
 sudo systemctl enable libvirtd.service
@@ -49,4 +58,4 @@ sudo systemctl disable getty@tty1.service
 # You can now reboot and see minimal ly display manager
 ```
 
-8. Prepare .xprofile file mathing your monitor setup (check one in repo)
+9. Prepare .xprofile file mathing your monitor setup (check one in repo)
