@@ -48,3 +48,5 @@ sudo systemctl disable getty@tty1.service
 
 # You can now reboot and see minimal ly display manager
 ```
+
+8. Prepare .xprofile file mathing your monitor setup (check one in repo)
