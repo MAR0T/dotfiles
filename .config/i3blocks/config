@@ -125,8 +125,9 @@ format=json
 interval=3600
 UPDATE_COLOR=#f0cf62
 QUIET=0
-#IGNORE=root vidyodesktop
-#CACHE_UPDATES=0
+IGNORE=synergy zsh-history-substring-search-git
+CACHE_UPDATES=1
+FORCE_IPV4=1
 
 [time]
 command=date '+%Y-%m-%d  %H:%M:%S'
