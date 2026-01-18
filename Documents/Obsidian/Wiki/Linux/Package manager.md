@@ -50,12 +50,17 @@ Listing unused packages installed as old dependencies
 pacman -Qdtq
 ```
 
+Listing each unused package with its details and list of files
+```sh
+pacman -Qdtq | xargs pacman -Qli | less
+```
+
 Setting some dependencies as explicitly installed, so they are no longer listed as orphaned deps
 ```sh
 sudo pacman -D --asexplicit <package_name>
 ```
 
-Listing each unused package with its details and list of files
+Remove remaining unused packages
 ```sh
-pacman -Qdtq | xargs pacman -Qli | less
+sudo pacman -Rns $(pacman -Qdtq)
 ```
