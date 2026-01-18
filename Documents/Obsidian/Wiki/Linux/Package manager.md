@@ -42,3 +42,20 @@ List all packages installed from chaotic-aur
 ```
 paclist chaotic-aur
 ```
+
+## Managing unused packages
+
+Listing unused packages installed as old dependencies
+```sh
+pacman -Qdtq
+```
+
+Setting some dependencies as explicitly installed, so they are no longer listed as orphaned deps
+```sh
+sudo pacman -D --asexplicit <package_name>
+```
+
+Listing each unused package with its details and list of files
+```sh
+pacman -Qdtq | xargs pacman -Qli | less
+```
