@@ -59,6 +59,11 @@ WantedBy=multi-user.target
 ```
 Timeout of 15s gives tiime for monitors to be detected. When running just the service and not the timer script was giving an error that there is no such display available.
 
+To verify syntax run:
+```sh
+systemd-analyze verify /etc/systemd/system/monitor_switch_HDMI.timer
+```
+
 To enable **timer** run:
 ```sh
 sudo systemctl enable monitor_switch_HDMI.timer
