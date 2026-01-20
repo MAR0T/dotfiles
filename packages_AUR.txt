@@ -14,6 +14,8 @@ mono-tools
 neofetch
 paru-bin
 rate-mirrors-bin
+snapd
+snapd-glib
 synergy
 termite
 vagrant
