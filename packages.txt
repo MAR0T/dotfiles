@@ -121,6 +121,7 @@ ghostscript
 gimp
 git
 github-desktop
+gittyup
 glmark2
 gnome-disk-utility
 gnome-keyring
