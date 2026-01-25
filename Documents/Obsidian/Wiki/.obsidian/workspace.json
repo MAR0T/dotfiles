@@ -9,48 +9,18 @@
         "dimension": 71.51015228426397,
         "children": [
           {
-            "id": "36f2b820825d3b22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Mirrorlist.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Mirrorlist"
-            }
-          },
-          {
-            "id": "e4ad528cd970720c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Wireless Headphones and external Microphone.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Wireless Headphones and external Microphone"
-            }
-          },
-          {
             "id": "db963c330005126f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Kernel/Kernel and drivers.md",
+                "file": "Linux/Network Speed.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Kernel and drivers"
+              "title": "Network Speed"
             }
           },
           {
@@ -81,7 +51,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Mirrorlist.md",
+                "file": "Linux/Network Speed.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -109,7 +79,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Mirrorlist"
+              "title": "Graph of Network Speed"
             }
           }
         ]
@@ -144,7 +114,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pacman",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,8 +131,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -267,6 +237,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -276,34 +247,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "36f2b820825d3b22",
+  "active": "bc8ed9479b0f9efd",
   "lastOpenFiles": [
-    "Linux/Chaotic-AUR.md",
-    "Linux/Utilities/at.md",
-    "Linux/Utilities/bat.md",
-    "Linux/Web Browsers/Firefox.md",
-    "Linux/fonts.md",
-    "Linux/Java.md",
-    "Linux/Journal.md",
-    "Linux/Mirrorlist.md",
-    "Linux/Monitor switch video source.md",
-    "Linux/Monitoring tools.md",
-    "Linux/Arch.md",
-    "Linux/Package manager.md",
     "Linux/Kernel/Kernel and drivers.md",
-    "Linux/EFI.md",
-    "Linux/Virtual machines/VFIO.md",
+    "Linux/Network Speed.md",
+    "Linux/Package manager.md",
+    "Linux/onefetch.md",
+    "Linux/Monitor switch video source.md",
     "Windows/Wireless Headphones and external Microphone.md",
-    "Windows/Miniaturki w filmach x265.md",
-    "Windows/Winget.md",
-    "Obsidian Guide.md",
-    "foliate.md",
-    "Music.md",
-    "Linux/Wireless headphones.md",
-    "Linux/Audio Visualizer.md",
+    "Untitled.base",
+    "Linux/Btrfs.md",
+    "Linux/Arch.md",
+    "Filesystem.md",
+    "Linux/File Manager/Thunar.md",
+    "Linux/Monitoring tools/bashtop.md",
+    "Linux/Monitoring tools/btop.md",
+    "Linux/Monitoring tools/iotop.md",
+    "Linux/Monitoring tools/nvtop.md",
+    "Linux/Monitoring tools/smartctl.md",
+    "Linux/Notofications/Dunst.md",
+    "Linux/Virtual machines/VFIO.md",
+    "Linux/Virtual machines/VM.md",
     "Linux/Package Manager/pacman.md",
-    "Linux/Package Manager/pamac.md",
-    "Linux/Package Manager/yay.md",
+    "Linux/i3wm.md",
+    "Linux/fonts.md",
+    "Linux/font-manager.md",
+    "Linux/Default shell.md",
+    "Linux/cursors.md",
+    "Linux/Mirrorlist.md",
+    "Windows/Time Synchronization.md",
     "Efiicient screen sharing",
     "Untitled"
   ]
