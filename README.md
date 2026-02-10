@@ -185,6 +185,15 @@ pacman -S xorg-server xfce4 xfce4-goodies
 
 Reboot and login to graphical environment
 
+20. Install zsh
+```
+pacman -S zsh zsh-autosuggestions zsh-completions zsh-doc zsh-syntax-hightlighting zsh-theme-powerlevel10k-git
+```
+
+21. Install neofetch
+```
+yay -S neofetch
+```
 
 ## Instructions to recreate my environment on clean ArcoLinux
 
