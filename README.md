@@ -8,6 +8,8 @@ My Linux configuration files
 
 ### Manual installation
 
+Make sure to boot in UEFI mode or with UEFI firmware in Virtual Machine.
+
 1. Make font bigger
 ```
 setfont [ter-v16b|ter-v24b|ter-v32b]
@@ -43,7 +45,7 @@ mkfs.btrfs -L <label> /dev/vda2
  * create btrfs subvolumes
 
 ```
-mount /dev/vds2 /mnt
+mount /dev/vda2 /mnt
 btrfs subvolume create /mnt/@
 
 btrfs subvolume create /mnt/@home
@@ -82,7 +84,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 4. Install base packages
 ```
-pacstrap /mnt base linux linux-lts linux-firmware sudo vim
+pacstrap /mnt base linux linux-firmware sudo vim
 ```
 
 5. Chroot
