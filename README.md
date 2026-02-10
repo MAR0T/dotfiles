@@ -13,24 +13,14 @@ My Linux configuration files
 setfont [ter-v16b|ter-v24b|ter-v32b]
 ```
 
-2. Set language
-
-```
-loadkeys pl
-ln -sf /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
-echo "LANG=en_US.UTF8" > /etc/locale.conf
-echo "KEYMAP=pl" >> /etc/vconsole.conf
-```
-
-
-3. Synchronize time
+2. Synchronize time
 ```
 timedatectl set-ntp true
 timedatectl
 hwclock --systohc
 ```
 
-4. Partition disk
+3. Partition disk
 ```
 cfdisk
 ```
@@ -90,32 +80,41 @@ mkdir -p /mnt/etc
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
 
-5. Install base packages
+4. Install base packages
 ```
 pacstrap /mnt base linux linux-lts linux-firmware sudo vim
 ```
 
-6. Chroot
+5. Chroot
 ```
 arch-chroot /mnt
 ```
 
-7. Set locale
+6. Set locale
 Uncomment `en_US.UTF` entry in `/etc/locale.gen` and run:
 ```
 locale-gen
 ```
 
-8. Create root password
+7. Create root password
 ```
 passwd
 ```
 
-9. Create user
+8. Create user
 ```
 useradd -m <user>
 passwd <user>
 usermod -aG <user>,wheel,audio,video,optical,storage,input <user>
+```
+
+9. Set language
+
+```
+loadkeys pl
+ln -sf /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
+echo "LANG=en_US.UTF8" > /etc/locale.conf
+echo "KEYMAP=pl" >> /etc/vconsole.conf
 ```
 
 10. Give wheel group sudo access
