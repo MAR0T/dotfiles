@@ -156,9 +156,9 @@ cd yay
 makepkg -si
 ```
 
-16. Install terminal emulator, fonts and desktop portals
+16. Install terminal emulator, browser, fonts and desktop portals
 ```
-pacman -S terminator ttf-dejavu ttf-roboto ttf-ubuntu-font-family xdg-desktop-portal-gnome xdg-desktop-portal-wlr
+pacman -S terminator firefox ttf-dejavu ttf-roboto ttf-ubuntu-font-family xdg-desktop-portal-gnome xdg-desktop-portal-wlr
 ```
 
 17. Exit and reboot to check grub is working
@@ -177,6 +177,14 @@ sudo systemctl enable --now NetworkManager
 ```
 
 Reboot to check login manager is working - login to shell first.
+
+19. Install example desktop environment
+```
+pacman -S xorg-server xfce4 xfce4-goodies
+```
+
+Reboot and login to graphical environment
+
 
 ## Instructions to recreate my environment on clean ArcoLinux
 
