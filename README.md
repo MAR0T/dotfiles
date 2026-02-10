@@ -156,6 +156,11 @@ cd yay
 makepkg -si
 ```
 
+16. Install terminal emulator, fonts and desktop portals
+```
+pacman -S terminator ttf-dejavu ttf-roboto ttf-ubuntu-font-family xdg-desktop-portal-gnome xdg-desktop-portal-wlr
+```
+
 ## Instructions to recreate my environment on clean ArcoLinux
 
 1. Download git repository with my configuration files
