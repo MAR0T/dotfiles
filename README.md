@@ -161,7 +161,7 @@ makepkg -si
 pacman -S terminator ttf-dejavu ttf-roboto ttf-ubuntu-font-family xdg-desktop-portal-gnome xdg-desktop-portal-wlr
 ```
 
-11. Exit and reboot to check grub is working
+17. Exit and reboot to check grub is working
 ```
 exit
 exit
@@ -169,7 +169,7 @@ umount -l /mnt
 reboot
 ```
 
-12. Login and enable login manager and network manager 
+18. Login and enable login manager and network manager 
 ```
 sudo systemctl enable ly@tty1.service
 sudo systemctl disable getty@tty1.service
