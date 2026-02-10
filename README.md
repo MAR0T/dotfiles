@@ -136,6 +136,25 @@ grub-mkconfig -o /boot/grub/grub.cfg
 pacman -S networkmanager
 ```
 
+13. Install display manager
+```
+pacman -S ly
+```
+
+14. Install other mandatory software
+```
+pacman -S base-devel git 
+```
+
+15. Install AUR helper
+```
+su <user>
+cd
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
 ## Instructions to recreate my environment on clean ArcoLinux
 
 1. Download git repository with my configuration files
