@@ -122,7 +122,19 @@ usermod -aG <user>,wheel,audio,video,optical,storage,input <user>
 
 Run `visudo` and uncomment line with `wheel`
 
-TBC
+11. Install GRUB
+```
+pacman -S grub efibootmgr
+mkdir -p /boot/efi
+mount /dev/vda1 /boot/efi
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+12. Install networkmanager
+```
+pacman -S networkmanager
+```
 
 ## Instructions to recreate my environment on clean ArcoLinux
 
