@@ -144,7 +144,7 @@ pacman -S ly
 
 14. Install other mandatory software
 ```
-pacman -S base-devel git 
+pacman -S base-devel git curl wget
 ```
 
 15. Install AUR helper
