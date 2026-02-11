@@ -180,7 +180,7 @@ Reboot to check login manager is working - login to shell first.
 
 19. Install example desktop environment
 ```
-pacman -S xorg-server xorg-apps xfce4 xfce4-goodies
+pacman -S xorg-server xorg-apps xorg-drivers xfce4 xfce4-goodies
 ```
 
 Reboot and login to graphical environment
