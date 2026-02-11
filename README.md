@@ -187,7 +187,8 @@ Reboot and login to graphical environment
 
 20. Install zsh
 ```
-pacman -S zsh zsh-autosuggestions zsh-completions zsh-doc zsh-syntax-hightlighting zsh-theme-powerlevel10k-git
+pacman -S zsh zsh-autosuggestions zsh-completions zsh-doc zsh-syntax-hightlighting zsh-theme-powerlevel10k-git oh-my-zsh
+yay -S zsh-history-substring-search-git
 ```
 
 21. Install neofetch
