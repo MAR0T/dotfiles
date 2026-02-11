@@ -196,6 +196,11 @@ yay -S zsh-history-substring-search-git
 yay -S neofetch
 ```
 
+22. Install ls replacement
+```
+pacman -S exa
+```
+
 ## Instructions to recreate my environment on clean ArcoLinux
 
 1. Download git repository with my configuration files
