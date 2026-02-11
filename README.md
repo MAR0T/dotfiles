@@ -134,7 +134,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 12. Install networkmanager
 ```
-pacman -S networkmanager
+pacman -S networkmanager network-manager-applet networkmanager-openconnect networkmanager-openvpn networkmanager-pptp networkmanager-vpnc
 ```
 
 13. Install display manager
