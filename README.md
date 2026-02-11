@@ -84,7 +84,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 4. Install base packages
 ```
-pacstrap /mnt base linux linux-firmware sudo vim
+pacstrap /mnt base linux linux-firmware sudo vim btrfs-progs
 ```
 
 5. Chroot
