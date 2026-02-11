@@ -2,6 +2,216 @@
 
 My Linux configuration files
 
+## Install base system
+ 
+1. Download Arch ISO from [https://archlinux.org/download/](https://archlinux.org/download/)
+
+### Manual installation
+
+Make sure to boot in UEFI mode or with UEFI firmware in Virtual Machine.
+
+1. Make font bigger
+```
+setfont [ter-v16b|ter-v24b|ter-v32b]
+```
+
+2. Synchronize time
+```
+timedatectl set-ntp true
+timedatectl
+hwclock --systohc
+```
+
+3. Partition disk
+```
+cfdisk
+```
+
+ * **gpt** partition table
+ * setup partitions, write to disk and quit
+
+| Device | Type | Size |
+|---|---|---|
+| /dev/vda1 | EFI System | 512M or 1G for multiple kernels |
+| /dev/vds2 | Linux filesystem | Rest of available space |
+
+ * create filesystems
+
+```
+mkfs.fat -F32 /dev/vda1
+mkfs.btrfs -L <label> /dev/vda2
+```
+
+ * create btrfs subvolumes
+
+```
+mount /dev/vda2 /mnt
+btrfs subvolume create /mnt/@
+
+btrfs subvolume create /mnt/@home
+btrfs subvolume create /mnt/@root
+
+btrfs subvolume create /mnt/@var_cache
+btrfs subvolume create /mnt/@var_log
+btrfs subvolume create /mnt/@var_tmp
+
+btrfs subvolume create /mnt/@/.snapshots
+btrfs subvolume create /mnt/@home/.snapshots
+
+umount /mnt
+mount -o noatime,compress=zstd,subvol=@ /dev/vda2 /mnt
+mkdir -p /mnt/{boot,home/.snapshots,root,.snapshots,var/{cache,log,tmp}}
+mount -o noatime,compress=zstd,subvol=@home /dev/vda2 /mnt/home
+mount -o noatime,compress=zstd,subvol=@root /dev/vda2 /mnt/root
+mount -o noatime,compress=zstd,subvol=@var_cache /dev/vda2 /mnt/var/cache
+mount -o noatime,compress=zstd,subvol=@var_log /dev/vda2 /mnt/var/log
+mount -o noatime,compress=zstd,subvol=@var_tmp /dev/vda2 /mnt/var/tmp
+mount -o noatime,compress=zstd,subvol=@/.snapshots /dev/vda2 /mnt/.snapshots
+mount -o noatime,compress=zstd,subvol=@home/.snapshots /dev/vda2 /mnt/home/.snapshots
+mount /dev/vda1 /mnt/boot
+```
+
+Verify mounts with:
+```
+lsblk -f
+btrfs subvolume list /mnt
+```
+Generate fstab
+```
+mkdir -p /mnt/etc
+genfstab -U /mnt >> /mnt/etc/fstab
+```
+
+4. Install base packages
+```
+pacstrap /mnt base linux linux-firmware sudo vim btrfs-progs
+```
+
+5. Chroot
+```
+arch-chroot /mnt
+```
+
+6. Set locale
+Uncomment `en_US.UTF` entry in `/etc/locale.gen` and run:
+```
+locale-gen
+```
+
+7. Create root password
+```
+passwd
+```
+
+8. Create user
+```
+useradd -m <user>
+passwd <user>
+usermod -aG <user>,wheel,audio,video,optical,storage,input <user>
+```
+
+9. Set language
+
+```
+loadkeys pl
+ln -sf /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
+echo "LANG=en_US.UTF8" > /etc/locale.conf
+echo "KEYMAP=pl" >> /etc/vconsole.conf
+```
+
+10. Give wheel group sudo access
+
+Run `visudo` and uncomment line with `wheel`
+
+11. Install GRUB
+```
+pacman -S grub efibootmgr
+mkdir -p /boot/efi
+mount /dev/vda1 /boot/efi
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+12. Install networkmanager
+```
+pacman -S networkmanager network-manager-applet networkmanager-openconnect networkmanager-openvpn networkmanager-pptp networkmanager-vpnc
+```
+
+13. Install display manager
+```
+pacman -S ly
+```
+
+14. Install other mandatory software
+```
+pacman -S base-devel git curl wget less
+```
+
+15. Install AUR helper
+```
+su <user>
+cd
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+```
+
+16. Install terminal emulator, browser, fonts and desktop portals
+```
+pacman -S terminator firefox ttf-dejavu ttf-roboto ttf-ubuntu-font-family xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-user-dirs xdg-utils
+```
+
+17. Exit and reboot to check grub is working
+```
+exit
+exit
+umount -l /mnt
+reboot
+```
+
+18. Login and enable login manager and network manager 
+```
+sudo systemctl enable ly@tty1.service
+sudo systemctl disable getty@tty1.service
+sudo systemctl enable --now NetworkManager
+```
+
+Reboot to check login manager is working - login to shell first.
+
+19. Install example desktop environment
+```
+pacman -S xorg-server xorg-apps xorg-drivers xfce4 xfce4-goodies
+```
+
+Reboot and login to graphical environment
+
+20. Install keychain
+```
+pacman -S keychain
+```
+
+21. Install neofetch
+```
+yay -S neofetch
+```
+
+22. Install ls replacement
+```
+pacman -S exa
+```
+
+23. Install zsh
+```
+pacman -S zsh zsh-autosuggestions zsh-completions zsh-doc zsh-syntax-hightlighting zsh-theme-powerlevel10k-git oh-my-zsh
+yay -S zsh-history-substring-search-git
+./link_zsh_plugins_themes.sh
+```
+Test `zsh` and if it works fine, make in the deafult shell
+```
+chsh -s /bin/zsh
+```
+
+
 ## Instructions to recreate my environment on clean ArcoLinux
 
 1. Download git repository with my configuration files
