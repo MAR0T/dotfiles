@@ -151,8 +151,8 @@ pacman -S base-devel git curl wget less
 ```
 su <user>
 cd
-git clone https://aur.archlinux.org/yay.git
-cd yay
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
 makepkg -si
 ```
 
@@ -185,10 +185,9 @@ pacman -S xorg-server xfce4 xfce4-goodies
 
 Reboot and login to graphical environment
 
-20. Install zsh
+20. Install keychain
 ```
-pacman -S zsh zsh-autosuggestions zsh-completions zsh-doc zsh-syntax-hightlighting zsh-theme-powerlevel10k-git oh-my-zsh
-yay -S zsh-history-substring-search-git
+pacman -S keychain
 ```
 
 21. Install neofetch
@@ -200,6 +199,18 @@ yay -S neofetch
 ```
 pacman -S exa
 ```
+
+23. Install zsh
+```
+pacman -S zsh zsh-autosuggestions zsh-completions zsh-doc zsh-syntax-hightlighting zsh-theme-powerlevel10k-git oh-my-zsh
+yay -S zsh-history-substring-search-git
+./link_zsh_plugins_themes.sh
+```
+Test `zsh` and if it works fine, make in the deafult shell
+```
+chsh -s /bin/zsh
+```
+
 
 ## Instructions to recreate my environment on clean ArcoLinux
 
