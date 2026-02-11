@@ -158,7 +158,7 @@ makepkg -si
 
 16. Install terminal emulator, browser, fonts and desktop portals
 ```
-pacman -S terminator firefox ttf-dejavu ttf-roboto ttf-ubuntu-font-family xdg-desktop-portal-gnome xdg-desktop-portal-wlr
+pacman -S terminator firefox ttf-dejavu ttf-roboto ttf-ubuntu-font-family xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-user-dirs xdg-utils
 ```
 
 17. Exit and reboot to check grub is working
