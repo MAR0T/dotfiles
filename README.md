@@ -252,4 +252,20 @@ sudo systemctl enable libvirtd.service
 sudo systemctl start libvirtd.service
 ```
 
-30. Reboot
+30. Configure btrfs snapshots
+```
+sudo umount /.snapshots
+sudo rmdir /.snapshots
+sudo snapper -c root create-config /
+sudo umount /home/.snapshots
+sudo rmdir /home/.snapshots
+sudo snapper -c home create-config /home
+
+sudo cp backup/etc/snapper/configs/* /etc/snapper/configs -rv
+
+snapper -c root create -d "First" -c number
+snapper -c home create -d "First" -c number
+```
+Verify content is right for you. Change ALLOW_USERS and ALLOW_GROUPS if needed.
+
+31. Reboot
