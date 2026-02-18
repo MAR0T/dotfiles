@@ -253,6 +253,7 @@ sudo systemctl start libvirtd.service
 ```
 
 30. Configure btrfs snapshots
+
 ```
 sudo umount /.snapshots
 sudo rmdir /.snapshots
@@ -268,5 +269,7 @@ snapper -c root create -d "First" -c number
 snapper -c home create -d "First" -c number
 ```
 
-
 31. Reboot
+
+32. Verify using btrfs-assistant if snapshots are automatically created after login
+33. Install any software and check if snapper pre & post snapshots are created
