@@ -261,11 +261,12 @@ sudo umount /home/.snapshots
 sudo rmdir /home/.snapshots
 sudo snapper -c home create-config /home
 
+# Compare with backups and change ALLOW_USERS and ALLOW_GROUPS if needed or override whole configuration:
 sudo cp backup/etc/snapper/configs/* /etc/snapper/configs -rv
 
 snapper -c root create -d "First" -c number
 snapper -c home create -d "First" -c number
 ```
-Verify content is right for you. Change ALLOW_USERS and ALLOW_GROUPS if needed.
+
 
 31. Reboot
