@@ -202,7 +202,7 @@ pacman -S exa
 
 23. Install zsh
 ```
-pacman -S zsh zsh-autosuggestions zsh-completions zsh-doc zsh-syntax-hightlighting zsh-theme-powerlevel10k-git oh-my-zsh
+pacman -S zsh zsh-autosuggestions zsh-completions bash-completion zsh-doc zsh-syntax-hightlighting zsh-theme-powerlevel10k-git oh-my-zsh
 yay -S zsh-history-substring-search-git
 ./link_zsh_plugins_themes.sh
 ```
@@ -211,6 +211,11 @@ Test `zsh` and if it works fine, make in the deafult shell
 chsh -s /bin/zsh
 ```
 
+24. If logged in to tiling window manager like i3, configure resolution using xrandr, e.g.
+```
+xrandr --output Virtual-1 --mode 1920x1080 --refresh 60.0
+```
+and if you are satisfied with the results, save final command in `~/.xprofile`
 
 ## Instructions to recreate my environment on clean ArcoLinux
 
