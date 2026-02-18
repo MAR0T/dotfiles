@@ -3,4 +3,4 @@ virt-manager
 virt-viewer
 libguestfs
 hyperv
-qemu-desktop
+qemu
