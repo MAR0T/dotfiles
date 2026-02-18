@@ -5,6 +5,7 @@ ddcutil
 dialog
 diffutils
 dosfstools
+flameshot
 jq
 mc
 meld
