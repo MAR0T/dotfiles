@@ -217,9 +217,7 @@ xrandr --output Virtual-1 --mode 1920x1080 --refresh 60.0
 ```
 and if you are satisfied with the results, save final command in `~/.xprofile`
 
-## Instructions to recreate my environment on clean ArcoLinux
-
-1. Download git repository with my configuration files
+25. Download git repository with my configuration files
 
 ```
 cd
@@ -229,48 +227,29 @@ dotfiles checkout main
 dotfiles config --local status.showUntrackedFiles no
 ```
 
-2. Enable multilib repository in /etc/pacman.conf (check configuration file in backup folder)
-3. Enable ChaoticAUR based on instructions on https://aur.chaotic.cx/docs
-4. Install fonts
+26. Enable multilib repository in /etc/pacman.conf (check configuration file in backup folder)
+27. Enable ChaoticAUR based on instructions on https://aur.chaotic.cx/docs
+28. Install fonts
 
 ```
 ./fonts_install.sh
 ```
 
-5. Install AUR helper
+28. Install all packages
 
 ```
-sudo pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay-bin.git
-cd yay-bin
-makepkg -si
-```
-
-6. Install all packages
-
-```
-pacman -Sy archlinux-keyring keychain
+pacman -Sy archlinux-keyring gnome-keyring keychain
 pacman -Syu
+yay -S --needed - < packages/*
 ./packages_reinstall.sh
 ./link_zsh_plugins_themes.sh
 ```
 
-7. Change default shell
-
-```
-chsh -s /bin/zsh
-```
-
-8. Enable services, including new display manager
+29. Enable services for virtual machines
  
 ```
 sudo systemctl enable libvirtd.service
 sudo systemctl start libvirtd.service
-sudo systemctl disable sddm.service
-sudo systemctl enable ly@tty1.service
-sudo systemctl disable getty@tty1.service
-
-# You can now reboot and see minimal ly display manager
 ```
 
-9. Prepare .xprofile file mathing your monitor setup (check one in repo)
+30. Reboot
