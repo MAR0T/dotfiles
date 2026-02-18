@@ -273,3 +273,6 @@ snapper -c home create -d "First" -c number
 
 32. Verify using btrfs-assistant if snapshots are automatically created after login
 33. Install any software and check if snapper pre & post snapshots are created
+34. You should also see snapshots in GRUB menu during boot
+
+35. Select preferred Style, Icons and Fonts in Appearance app
