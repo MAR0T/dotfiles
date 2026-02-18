@@ -275,4 +275,4 @@ snapper -c home create -d "First" -c number
 33. Install any software and check if snapper pre & post snapshots are created
 34. You should also see snapshots in GRUB menu during boot
 
-35. Select preferred Style, Icons and Fonts in Appearance app
+35. Select preferred Style, Icons and Fonts in Appearance app for XFCE and in lxapperance for i3wm
