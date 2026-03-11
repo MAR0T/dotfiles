@@ -267,6 +267,9 @@ Final XML of my VM:
 </domain>
 ```
 
+# Allow USB devices like mouse and keyboard
+Add required devices to `/etc/libvirt/qemu.conf` in array cgroup_device_acl.
+
 # CPU isolation
 
 ## Manual scripts
