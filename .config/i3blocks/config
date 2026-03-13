@@ -42,7 +42,7 @@ interval=once
 
 [monitor_switch]
 full_text=󰍹  Linux
-command=sudo /home/marek/.local/bin/monitor_switch_Linux.sh
+command=sudo /home/marek/.local/bin/monitor_switch_Linux.sh > /dev/null 2>&1
 
 [location]
 label=  
